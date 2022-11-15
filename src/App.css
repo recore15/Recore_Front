@@ -1,4 +1,18 @@
+.Main_Btn button {
+  height: 62px;
+  width: 300px;
+  border-color: #adc178;
+}
+
 .MainPage .span {
   display: flex;
   justify-content: flex-end;
+}
+.MainPage .logo {
+  display: flex;
+  justify-content: space-around;
+}
+.MainPage .btn {
+  display: flex;
+  justify-content: center;
 }
