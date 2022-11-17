@@ -1,4 +1,5 @@
 import Main_Btn from "../Btn/Main_Btn";
+import Sites from "../Sites";
 const MainPage = () => {
   return (
     <div className="MainPage">
@@ -35,6 +36,9 @@ const MainPage = () => {
       <div className="search">
         <input placeholder="검색어를 입력하시오"></input>
         <button></button>
+      </div>
+      <div className="site">
+        <Sites />
       </div>
     </div>
   );

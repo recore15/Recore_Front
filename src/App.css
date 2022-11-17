@@ -7,6 +7,22 @@
   border-left: none;
   border-right: none;
 }
+.Card button {
+  width: 210px;
+  height: 80px;
+}
+
+.Sites {
+  position: fixed;
+  bottom: 0;
+  background-color: #f9f9f9;
+  height: 194px;
+  width: 100%;
+}
+
+.Sites .mid {
+  display: flex;
+}
 
 .MainPage .span {
   display: flex;
