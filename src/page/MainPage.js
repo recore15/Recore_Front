@@ -13,7 +13,7 @@ const MainPage = () => {
       <div className="btn">
         <Main_Btn
           name={"분리수거"}
-          props={"/"}
+          props={"/recycle"}
           content1={"이름1"}
           content2={"이름2"}
           content3={"이름3"}

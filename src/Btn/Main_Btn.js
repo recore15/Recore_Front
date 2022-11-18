@@ -10,7 +10,7 @@ const Main_Btn = ({ props, name, content1, content2, content3 }) => {
     <div className="Main_Btn">
       <button
         onClick={() => {
-          // navigate(props);
+          navigate(props);
           view();
         }}
       >
