@@ -1,4 +1,88 @@
+.Main_Btn button {
+  height: 62px;
+  width: 300px;
+  background-color: white;
+  border-color: #adc178;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.Card button {
+  width: 210px;
+  height: 80px;
+}
+
+.Sites {
+  position: fixed;
+  bottom: 0;
+  background-color: #f9f9f9;
+  height: 194px;
+  width: 100%;
+}
+.Sites h3 {
+  margin-left: 150px;
+  width: 120px;
+}
+.Sites .mid {
+  display: flex;
+  justify-content: space-between;
+}
+.Sites .mid svg {
+  width: 100px;
+  height: 50px;
+}
+.Sites .mid .arrow1 {
+  margin-left: 125px;
+}
+.Sites .mid .arrow2 {
+  margin-right: 125px;
+}
+.Sites .mid .card {
+  display: flex;
+}
+.Sites .mid .card button {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  border: none;
+}
 .MainPage .span {
   display: flex;
   justify-content: flex-end;
+}
+.MainPage .span button {
+  width: auto;
+  height: 23px;
+  margin-right: 50px;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+}
+.MainPage .logo {
+  display: flex;
+  justify-content: space-around;
+}
+.MainPage .btn {
+  display: flex;
+  justify-content: center;
+}
+.MainPage .search {
+  display: flex;
+  justify-content: center;
+  margin-top: 200px; /*위에 select문 만들면 변경*/
+  height: 52px;
+}
+.MainPage .search input {
+  border-radius: 8px 0px 0px 8px;
+  width: 1101px;
+  background-color: #d9d9d9;
+  font-size: 48px;
+  border: none;
+}
+.MainPage .search button {
+  width: 105px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #adc178;
+  border: none;
 }
