@@ -4,8 +4,8 @@ const MainPage = () => {
   return (
     <div className="MainPage">
       <div className="span">
-        <span>로그인</span>
-        <span>회원가입</span>
+        <button>로그인</button>
+        <button>회원가입</button>
       </div>
       <div className="logo">
         <img className="logo_main" alt="logo" src="../image/logo.png" />

@@ -19,16 +19,46 @@
   height: 194px;
   width: 100%;
 }
-
+.Sites h3 {
+  margin-left: 150px;
+  width: 120px;
+}
 .Sites .mid {
   display: flex;
+  justify-content: space-between;
 }
-
+.Sites .mid svg {
+  width: 100px;
+  height: 50px;
+}
+.Sites .mid .arrow1 {
+  margin-left: 125px;
+}
+.Sites .mid .arrow2 {
+  margin-right: 125px;
+}
+.Sites .mid .card {
+  display: flex;
+}
+.Sites .mid .card button {
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 15px;
+  background-color: #d9d9d9;
+  border: none;
+}
 .MainPage .span {
   display: flex;
   justify-content: flex-end;
 }
-
+.MainPage .span button {
+  width: auto;
+  height: 23px;
+  margin-right: 50px;
+  background-color: white;
+  border: none;
+  font-size: 18px;
+}
 .MainPage .logo {
   display: flex;
   justify-content: space-around;
