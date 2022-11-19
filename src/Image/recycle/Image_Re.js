@@ -1,8 +1,16 @@
+import { useNavigate } from "react-router-dom";
 const Image_Re = ({ props, name }) => {
+  const navigate = useNavigate();
   return (
     <div className="Image_Re">
       <div className="image">
-        <img alt={name} src={props} />
+        <button
+          onClick={() => {
+            navigate("/detail");
+          }}
+        >
+          <img alt={name} src={props} />
+        </button>
       </div>
       <div className="name">
         <h3>{name}</h3>

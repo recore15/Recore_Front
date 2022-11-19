@@ -47,6 +47,38 @@
   background-color: #d9d9d9;
   border: none;
 }
+
+.Menu_Bar .menu {
+  flex-direction: column;
+}
+.Menu_Bar .line hr {
+  margin-top: 60px;
+  height: 3px;
+  background-color: #d9d9d9;
+  border: none;
+}
+.Menu_Bar .menu_src {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Menu_Bar .menu .btn {
+  margin-top: 50px;
+}
+.Menu_Bar .menu .btn button {
+  width: 150px;
+  margin-left: 120px;
+  background-color: white;
+  border: none;
+  font-size: 20px;
+}
+.Menu_Bar .menu_line hr {
+  margin-top: 30px;
+  height: 3px;
+  background-color: #adc178;
+  border: none;
+}
+
 .MainPage .span {
   display: flex;
   justify-content: flex-end;
@@ -86,36 +118,7 @@
   background-color: #adc178;
   border: none;
 }
-.Guide .menu {
-  flex-direction: column;
-}
-.Guide .line hr {
-  margin-top: 60px;
-  height: 3px;
-  background-color: #d9d9d9;
-  border: none;
-}
-.Guide .menu_src {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.Guide .menu .btn {
-  margin-top: 50px;
-}
-.Guide .menu .btn button {
-  width: 150px;
-  margin-left: 120px;
-  background-color: white;
-  border: none;
-  font-size: 20px;
-}
-.Guide .menu_line hr {
-  margin-top: 30px;
-  height: 3px;
-  background-color: #adc178;
-  border: none;
-}
+
 .Guide .title {
   flex-direction: column;
   display: flex;
@@ -165,27 +168,74 @@
   margin-top: 80px;
   flex-direction: column;
   display: flex;
-  margin-right: 140px;
+  margin-right: 50px;
+  margin-left: 50px;
 }
 .Guide .main .content .column2 {
   margin-top: 80px;
   flex-direction: column;
   display: flex;
-  margin-right: 140px;
+  margin-right: 80px;
+  margin-left: 50px;
 }
 .Image_Re {
   flex-direction: column;
-  height: 480px;
 }
+
 .Image_Re .image {
   width: 375px;
   height: 310px;
   object-fit: cover;
   background-color: #d9d9d9;
 }
+.Image_Re .image button {
+  background-color: white;
+  border: none;
+}
 .Image_Re .image img {
   width: 375px;
   height: 310px;
   object-fit: cover;
   font-size: 20px;
+}
+
+.Detail .title {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.Detail .search {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  height: 28px;
+  margin-left: 342px;
+}
+.Detail .search input {
+  border-radius: 8px 0px 0px 8px;
+  width: 390px;
+  background-color: #d9d9d9;
+  font-size: 15px;
+  border: none;
+  margin-left: 190px;
+}
+.Detail .search button {
+  width: 40px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #adc178;
+  border: none;
+}
+.Detail .title_line hr {
+  background-color: #adc178;
+  height: 1px;
+  border: none;
+}
+.Detail .title_menu {
+  display: flex;
+  justify-content: flex-start;
+}
+.Detail .title h2 {
+  font-size: 24px;
+  width: 342px;
 }

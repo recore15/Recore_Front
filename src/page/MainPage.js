@@ -8,7 +8,7 @@ const MainPage = () => {
         <button>회원가입</button>
       </div>
       <div className="logo">
-        <img className="logo_main" alt="logo" src="../image/logo.png" />
+        <img className="logo_main" alt="logo" src="../Img/logo.png" />
       </div>
       <div className="btn">
         <Main_Btn
