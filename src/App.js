@@ -9,7 +9,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/recycle" element={<Guide />} />
+        <Route path="/Guide" element={<Guide />} />
         <Route path="/detail" element={<Detail />} />
       </Routes>
     </BrowserRouter>

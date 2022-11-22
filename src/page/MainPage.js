@@ -13,24 +13,24 @@ const MainPage = () => {
       <div className="btn">
         <Main_Btn
           name={"분리수거"}
-          props={"/recycle"}
-          content1={"이름1"}
-          content2={"이름2"}
-          content3={"이름3"}
+          prop1={"/"}
+          prop2={"/Guide"}
+          content1={"까다로운 분리수거"}
+          content2={"재활용 분류 방법 안내"}
         />
         <Main_Btn
           name={"음식물쓰레기"}
-          props={"/"}
-          content1={"이름4"}
-          content2={"이름5"}
-          content3={"이름6"}
+          prop1={"/"}
+          prop2={"/"}
+          content1={"음식물 쓰레기 버리는 법"}
+          content2={"레시피공유 위드 에코"}
         />
         <Main_Btn
           name={"에코프렌드"}
-          props={"/"}
+          prop1={"/"}
+          prop2={"/"}
           content1={"이름7"}
           content2={"이름8"}
-          content3={"이름9"}
         />
       </div>
       <div className="search">

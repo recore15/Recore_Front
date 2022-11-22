@@ -239,3 +239,15 @@
   font-size: 24px;
   width: 342px;
 }
+.DropDown {
+  margin-left: 30px;
+}
+.DropDown ul {
+  list-style: none;
+  background-color: #d6e2b7;
+  width: 200px;
+  height: 175px;
+}
+.DropDown li {
+  padding-top: 30px;
+}
