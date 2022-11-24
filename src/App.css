@@ -78,6 +78,16 @@
   background-color: #adc178;
   border: none;
 }
+.Position {
+  color: gray;
+  align-items: center;
+  display: flex;
+}
+.Position button {
+  border: none;
+  background-color: white;
+  color: gray;
+}
 
 .MainPage .span {
   display: flex;

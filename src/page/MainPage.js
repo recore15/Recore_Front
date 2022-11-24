@@ -13,7 +13,7 @@ const MainPage = () => {
       <div className="btn">
         <Main_Btn
           name={"분리수거"}
-          prop1={"/"}
+          prop1={"/Difficult"}
           prop2={"/Guide"}
           content1={"까다로운 분리수거"}
           content2={"재활용 분류 방법 안내"}
