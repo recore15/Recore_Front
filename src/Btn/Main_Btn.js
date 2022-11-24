@@ -1,21 +1,24 @@
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
-const Main_Btn = ({ props, name, content1, content2, content3 }) => {
-  const [show, setShow] = useState("false");
-  const view = () => {
-    setShow(!show);
-  };
-  const navigate = useNavigate();
+import DropDown from "../DropDown";
+const Main_Btn = ({ prop1, prop2, name, content1, content2 }) => {
+  const [show, setShow] = useState(false);
   return (
     <div className="Main_Btn">
       <button
         onClick={() => {
-          navigate(props);
-          view();
+          setShow(!show);
         }}
       >
         {name}
       </button>
+      {show && (
+        <DropDown
+          content1={content1}
+          content2={content2}
+          prop1={prop1}
+          prop2={prop2}
+        />
+      )}
     </div>
   );
 };
