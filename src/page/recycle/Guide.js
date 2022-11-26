@@ -1,4 +1,4 @@
-import Image_Re from "../../Image/Recycle/Image_Re";
+import Image_Re from "../../Image/recycle/Image_Re";
 import Menu_Bar from "../../Menu_Bar";
 
 const Guide = () => {
