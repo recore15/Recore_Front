@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 const Menu_Bar = () => {
   return (
     <div className="Menu_Bar">
@@ -6,9 +8,11 @@ const Menu_Bar = () => {
       </div>
       <div className="menu">
         <div className="menu_src">
-          <div className="logo">
-            <img className="logo_main" alt="logo" src="../Img/logo.png" />
-          </div>
+          <NavLink to={"/"}>
+            <div className="logo">
+              <img className="logo_main" alt="logo" src="../Img/logo.png" />
+            </div>
+          </NavLink>
           <div className="btn">
             <ul>
               <li>
