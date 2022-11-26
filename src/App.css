@@ -1,12 +1,3 @@
-.Main_Btn button {
-  height: 62px;
-  width: 300px;
-  background-color: white;
-  border-color: #adc178;
-  border-top: none;
-  border-left: none;
-  border-right: none;
-}
 .Card button {
   width: 210px;
   height: 80px;
@@ -108,10 +99,53 @@
 .MainPage .btn {
   display: flex;
   justify-content: center;
+  text-align: center;
+}
+.MainPage .btn hr {
+  margin-top: 15px;
+  background-color: #adc178;
+  border: 0;
+  height: 3px;
+  margin-bottom: 0px;
+}
+.MainPage .btn ul li {
+  list-style: none;
+
+  width: 300px;
+  font-size: 24px;
+}
+.MainPage .btn ul li ul {
+  margin-left: 100px;
+}
+.MainPage .btn ul li ul li {
+  margin-top: 10px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: 200px;
+  align-items: left;
+}
+.MainPage .btn > ul > li {
+  float: left;
+  position: relative;
+}
+.MainPage .btn > ul > li > ul {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  background-color: #d6e2b7;
+}
+.MainPage .btn a {
+  text-decoration: none;
+  color: black;
+}
+
+.MainPage .btn > ul > li:hover > ul {
+  display: block;
 }
 .MainPage .search {
   position: absolute; /*여기 고쳐야할수도 있음*/
-  top: 500px;
+  top: 400px;
   left: 25%;
   right: 25%;
   display: flex;
@@ -252,16 +286,4 @@
 .Detail .title h2 {
   font-size: 24px;
   width: 342px;
-}
-.DropDown {
-  margin-left: 30px;
-}
-.DropDown ul {
-  list-style: none;
-  background-color: #d6e2b7;
-  width: 200px;
-  height: 175px;
-}
-.DropDown li {
-  padding-top: 30px;
 }
