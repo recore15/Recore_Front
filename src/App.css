@@ -287,3 +287,30 @@
   font-size: 24px;
   width: 342px;
 }
+
+.Difficult .block {
+  display: flex;
+}
+.Difficult .block .blank {
+  width: 400px;
+}
+.Difficult .block .main {
+  flex-direction: column;
+  display: flex;
+}
+.Difficult .block .main h2 {
+  margin-top: 100px;
+}
+.Difficult .block .title {
+  margin-top: 120px;
+  background-color: #adc178;
+  width: 460px;
+  height: 56px;
+  border-radius: 20px 20px 0px 0px;
+}
+.Difficult .block .content {
+  height: 390px;
+  width: 1200px;
+  background-color: #f4f4f4;
+  margin-bottom: 80px;
+}
