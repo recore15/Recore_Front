@@ -1,3 +1,49 @@
+.btn {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.btn hr {
+  margin-top: 15px;
+  background-color: #adc178;
+  border: 0;
+  height: 3px;
+  margin-bottom: 0px;
+}
+.btn ul li {
+  list-style: none;
+
+  width: 300px;
+  font-size: 24px;
+}
+.btn ul li ul {
+  margin-left: 100px;
+}
+.btn ul li ul li {
+  margin-top: 10px;
+  margin-right: 35px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  width: 200px;
+  align-items: left;
+}
+.btn > ul > li {
+  float: left;
+  position: relative;
+}
+.btn > ul > li > ul {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  background-color: #d6e2b7;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+}
+.btn > ul > li:hover > ul {
+  display: block;
+}
 .Card button {
   width: 210px;
   height: 80px;
@@ -53,22 +99,11 @@
   align-items: center;
   justify-content: center;
 }
-.Menu_Bar .menu .btn {
+
+.Menu_Bar .btn {
   margin-top: 50px;
 }
-.Menu_Bar .menu .btn button {
-  width: 150px;
-  margin-left: 120px;
-  background-color: white;
-  border: none;
-  font-size: 20px;
-}
-.Menu_Bar .menu_line hr {
-  margin-top: 30px;
-  height: 3px;
-  background-color: #adc178;
-  border: none;
-}
+
 .Position {
   color: gray;
   align-items: center;
@@ -96,53 +131,7 @@
   display: flex;
   justify-content: space-around;
 }
-.MainPage .btn {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-}
-.MainPage .btn hr {
-  margin-top: 15px;
-  background-color: #adc178;
-  border: 0;
-  height: 3px;
-  margin-bottom: 0px;
-}
-.MainPage .btn ul li {
-  list-style: none;
 
-  width: 300px;
-  font-size: 24px;
-}
-.MainPage .btn ul li ul {
-  margin-left: 100px;
-}
-.MainPage .btn ul li ul li {
-  margin-top: 10px;
-  margin-right: 35px;
-  margin-bottom: 10px;
-  font-size: 18px;
-  width: 200px;
-  align-items: left;
-}
-.MainPage .btn > ul > li {
-  float: left;
-  position: relative;
-}
-.MainPage .btn > ul > li > ul {
-  display: none;
-  position: absolute;
-  font-size: 12px;
-  background-color: #d6e2b7;
-}
-.MainPage .btn a {
-  text-decoration: none;
-  color: black;
-}
-
-.MainPage .btn > ul > li:hover > ul {
-  display: block;
-}
 .MainPage .search {
   position: absolute; /*여기 고쳐야할수도 있음*/
   top: 400px;
@@ -286,4 +275,31 @@
 .Detail .title h2 {
   font-size: 24px;
   width: 342px;
+}
+
+.Difficult .block {
+  display: flex;
+}
+.Difficult .block .blank {
+  width: 400px;
+}
+.Difficult .block .main {
+  flex-direction: column;
+  display: flex;
+}
+.Difficult .block .main h2 {
+  margin-top: 100px;
+}
+.Difficult .block .title {
+  margin-top: 120px;
+  background-color: #adc178;
+  width: 460px;
+  height: 56px;
+  border-radius: 20px 20px 0px 0px;
+}
+.Difficult .block .content {
+  height: 390px;
+  width: 1200px;
+  background-color: #f4f4f4;
+  margin-bottom: 80px;
 }
