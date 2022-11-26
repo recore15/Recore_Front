@@ -16,7 +16,7 @@ const MainPage = () => {
             <hr />
             <ul>
               <li>
-                <a href="/difficult">까다로운 분히수거</a>
+                <a href="/difficult">까다로운 분리수거</a>
               </li>
               <li>
                 <a href="/guide">재활용 분류방법 안내</a>
