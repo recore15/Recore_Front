@@ -110,9 +110,13 @@
   justify-content: center;
 }
 .MainPage .search {
+  position: absolute; /*여기 고쳐야할수도 있음*/
+  top: 500px;
+  left: 25%;
+  right: 25%;
   display: flex;
   justify-content: center;
-  margin-top: 200px; /*위에 select문 만들면 변경*/
+  /* margin-top: 200px; 위에 select문 만들면 변경 */
   height: 52px;
 }
 .MainPage .search input {
