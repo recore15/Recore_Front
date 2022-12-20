@@ -283,23 +283,44 @@
 .Difficult .block .blank {
   width: 400px;
 }
-.Difficult .block .main {
-  flex-direction: column;
+.Difficult .block .main .content {
+  width: 100%;
+  flex-direction: row;
   display: flex;
 }
-.Difficult .block .main h2 {
+.Difficult .block .main h1 {
   margin-top: 100px;
 }
-.Difficult .block .title {
+.Difficult .block .main .box {
   margin-top: 120px;
-  background-color: #adc178;
-  width: 460px;
-  height: 56px;
-  border-radius: 20px 20px 0px 0px;
+  margin-right: 120px;
+  flex-direction: column;
 }
-.Difficult .block .content {
-  height: 390px;
-  width: 1200px;
+.Difficult .block .main .box button {
+  padding: 0px 0px;
+  border-width: 0px;
+  text-align: start;
+}
+.Difficult .block .main .box .picture {
+  width: 480px;
+  height: 360px;
   background-color: #f4f4f4;
-  margin-bottom: 80px;
+}
+.Difficult .block .main .box .title {
+  width: 480px;
+  height: 120px;
+  background-color: #f8fbf1;
+}
+.Difficult .block .main .box .title h2 {
+  margin-top: 0px;
+}
+
+.Difficult_De .main {
+  display: flex;
+  justify-content: center;
+}
+.Difficult_De .main .title {
+  flex-direction: column;
+  display: flex;
+  /* justify-content: left; */
 }
