@@ -1,7 +1,10 @@
 import Menu_Bar from "../../Menu_Bar";
 import Position from "../../Position";
 import { useRef } from "react";
+import { useLocation } from "react-router-dom";
 const Difficult_De = () => {
+  const { state } = useLocation();
+
   return (
     <div className="Difficult_De">
       <Menu_Bar />
@@ -17,23 +20,23 @@ const Difficult_De = () => {
           </div>
           <div className="step">
             <div className>
-              <h3>배달 음식 먹고 난 후!</h3>
+              <h3>{state[0]}</h3>
               <h4>이렇게 분리수거 해주세요</h4>
             </div>
             <div className="line"></div>
             <div>
               <h4>STEP1.</h4>
-              <h3>비우고</h3>
+              <h3>{state[1]}</h3>
             </div>
             <div className="line"></div>
             <div>
               <h4>STEP2.</h4>
-              <h3>씻고</h3>
+              <h3>{state[2]}</h3>
             </div>
             <div className="line"></div>
             <div>
               <h4>STEP3.</h4>
-              <h3>분류하고</h3>
+              <h3>{state[3]}</h3>
             </div>
           </div>
           <div className="de_content">
@@ -41,14 +44,14 @@ const Difficult_De = () => {
               <div className="picture"></div>
               <div className="writing">
                 <h4>STEP1.</h4>
-                <h3>비우고</h3>
+                <h3>{state[1]}</h3>
               </div>
             </div>
             <div className="box">
               <div className="picture"></div>
               <div className="writing">
                 <h4>STEP2.</h4>
-                <h3>씻고</h3>
+                <h3>{state[2]}</h3>
               </div>
             </div>
             <div className="box">
@@ -57,7 +60,7 @@ const Difficult_De = () => {
                 <div>
                   <h4>STEP3.</h4>
                 </div>
-                <h3>분류하고</h3>
+                <h3>{state[3]}</h3>
               </div>
             </div>
           </div>

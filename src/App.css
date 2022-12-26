@@ -279,10 +279,9 @@
 
 .Difficult .block {
   display: flex;
+  justify-content: center;
 }
-.Difficult .block .blank {
-  width: 400px;
-}
+
 .Difficult .block .main .content {
   width: 100%;
   flex-direction: row;
