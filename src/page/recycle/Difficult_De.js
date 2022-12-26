@@ -1,7 +1,7 @@
 import Menu_Bar from "../../Menu_Bar";
 import Position from "../../Position";
-import { useRef } from "react";
 import { useLocation } from "react-router-dom";
+import { Link } from "react-scroll";
 const Difficult_De = () => {
   const { state } = useLocation();
 
@@ -25,36 +25,42 @@ const Difficult_De = () => {
             </div>
             <div className="line"></div>
             <div>
-              <h4>STEP1.</h4>
-              <h3>{state[1]}</h3>
+              <Link to="1" spy={true} smooth={true}>
+                <h4>STEP1.</h4>
+                <h3>{state[1]}</h3>
+              </Link>
             </div>
             <div className="line"></div>
             <div>
-              <h4>STEP2.</h4>
-              <h3>{state[2]}</h3>
+              <Link to="2" spy={true} smooth={true}>
+                <h4>STEP2.</h4>
+                <h3>{state[2]}</h3>
+              </Link>
             </div>
             <div className="line"></div>
             <div>
-              <h4>STEP3.</h4>
-              <h3>{state[3]}</h3>
+              <Link to="3" spy={true} smooth={true}>
+                <h4>STEP3.</h4>
+                <h3>{state[3]}</h3>
+              </Link>
             </div>
           </div>
           <div className="de_content">
-            <div className="box">
+            <div className="box" id="1">
               <div className="picture"></div>
               <div className="writing">
                 <h4>STEP1.</h4>
                 <h3>{state[1]}</h3>
               </div>
             </div>
-            <div className="box">
+            <div className="box" id="2">
               <div className="picture"></div>
               <div className="writing">
                 <h4>STEP2.</h4>
                 <h3>{state[2]}</h3>
               </div>
             </div>
-            <div className="box">
+            <div className="box" id="3">
               <div className="picture"></div>
               <div className="writing">
                 <div>
