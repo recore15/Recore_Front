@@ -163,15 +163,11 @@
   align-content: center;
 }
 .Guide .title_menu {
+  flex-direction: column;
   display: flex;
-  justify-content: center;
-  margin-top: 160px;
-  align-items: center;
+  margin-top: 100px;
 }
-.Guide .title h2 {
-  font-size: 24px;
-  width: 342px;
-}
+
 .Guide .search {
   margin-top: 48px;
   display: flex;
@@ -184,7 +180,7 @@
   background-color: #d9d9d9;
   font-size: 15px;
   border: none;
-  margin-left: 190px;
+  margin-left: 410px;
 }
 .Guide .search button {
   width: 40px;
@@ -192,24 +188,19 @@
   background-color: #adc178;
   border: none;
 }
-.Guide .title_line hr {
-  background-color: #adc178;
-  height: 1px;
-  border: none;
-}
 .Guide .main .content {
   display: flex;
   justify-content: center;
 }
 .Guide .main .content .column1 {
-  margin-top: 80px;
+  margin-top: 60px;
   flex-direction: column;
   display: flex;
-  margin-right: 50px;
+  margin-right: 70px;
   margin-left: 50px;
 }
 .Guide .main .content .column2 {
-  margin-top: 80px;
+  margin-top: 60px;
   flex-direction: column;
   display: flex;
   margin-right: 80px;
@@ -315,11 +306,11 @@
   width: 325px;
   height: 250px;
 }
+
 .Difficult .block {
   display: flex;
   justify-content: center;
 }
-
 .Difficult .block .main .content {
   width: 100%;
   flex-direction: row;
@@ -405,4 +396,154 @@
   width: 480px;
   height: 390px;
   padding-left: 20px;
+}
+
+.Mode .title {
+  flex-direction: column;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.Mode .title_menu {
+  flex-direction: column;
+  display: flex;
+  margin-top: 100px;
+}
+
+.Mode .search {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+  height: 28px;
+}
+.Mode .search input {
+  border-radius: 8px 0px 0px 8px;
+  width: 390px;
+  background-color: #d9d9d9;
+  font-size: 15px;
+  border: none;
+  margin-left: 410px;
+}
+.Mode .search button {
+  width: 40px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #adc178;
+  border: none;
+}
+.Mode .main .content {
+  display: flex;
+  justify-content: center;
+}
+.Mode .main .content .column1 {
+  margin-top: 60px;
+  flex-direction: column;
+  display: flex;
+  margin-right: 70px;
+  margin-left: 50px;
+}
+.Mode .main .content .column2 {
+  margin-top: 60px;
+  flex-direction: column;
+  display: flex;
+  margin-right: 80px;
+  margin-left: 50px;
+}
+.Mode .main .content .box button {
+  padding-left: 0px;
+  padding-top: 0px;
+  background-color: #d9d9d9;
+  border: none;
+  width: 375px;
+  height: 310px;
+}
+.Mode .main .content .box img {
+  width: 375px;
+  height: 310px;
+  object-fit: cover;
+  font-size: 20px;
+}
+.Mode .main .content .box h3 {
+  margin-left: 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.Detail_Mo .search {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  height: 28px;
+  justify-content: flex-end;
+}
+.Detail_Mo .search input {
+  border-radius: 8px 0px 0px 8px;
+  width: 390px;
+  background-color: #d9d9d9;
+  font-size: 15px;
+  border: none;
+  margin-left: 190px;
+}
+.Detail_Mo .search button {
+  width: 40px;
+  border-radius: 0px 8px 8px 0px;
+  background-color: #adc178;
+  border: none;
+}
+.Detail_Mo .main {
+  display: flex;
+  justify-content: center;
+}
+.Detail_Mo .main .line {
+  margin-top: 10px;
+  height: 1px;
+  background-color: #adc178;
+}
+.Detail_Mo .title {
+  display: flex;
+}
+.Detail_Mo .content {
+  flex-direction: row;
+  margin-top: 20px;
+  display: flex;
+}
+.Detail_Mo .content img {
+  width: 514px;
+  height: 423px;
+  background-color: #d9d9d9;
+}
+.Detail_Mo .content .name {
+  margin-left: 100px;
+  padding-left: 10px;
+  background-color: #adc178;
+  border-radius: 10px 10px 0 0;
+  width: 452px;
+  height: 53px;
+}
+.Detail_Mo .content .name h2 {
+  margin-top: 10px;
+}
+.Detail_Mo .main .how {
+  margin-top: 50px;
+}
+.Detail_Mo .main .how .expl {
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+}
+.Detail_Mo .main .how .expl .box {
+  width: 325px;
+  height: 485px;
+  box-shadow: 2.25px 2.25px 2.25px 2.25px gray;
+  border-radius: 16px 16px;
+}
+.Detail_Mo .main .how .expl .box .image {
+  width: 325px;
+  height: 250px;
+  background-color: #d9d9d9;
+  border-radius: 16px 16px 0px 0px;
+}
+.Detail_Mo .main .how .expl .box img {
+  border-radius: 16px 16px 0px 0px;
+  width: 325px;
+  height: 250px;
 }
