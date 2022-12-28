@@ -1,4 +1,5 @@
 import { useLocation } from "react-router-dom";
+import List_Btn from "../../List_Btn";
 import Menu_Bar from "../../Menu_Bar";
 
 const Detail = () => {
@@ -57,6 +58,7 @@ const Detail = () => {
           </div>
         </div>
       </div>
+      <List_Btn props={"/guide"} />
     </div>
   );
 };

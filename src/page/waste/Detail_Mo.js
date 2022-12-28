@@ -1,6 +1,6 @@
 import { useLocation } from "react-router-dom";
 import Menu_Bar from "../../Menu_Bar";
-
+import List_Btn from "../../List_Btn";
 const Detail_Mo = () => {
   const { state } = useLocation();
   console.log(state);
@@ -57,6 +57,7 @@ const Detail_Mo = () => {
           </div>
         </div>
       </div>
+      <List_Btn />
     </div>
   );
 };
