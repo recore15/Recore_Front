@@ -57,7 +57,7 @@ const Detail_Mo = () => {
           </div>
         </div>
       </div>
-      <List_Btn />
+      <List_Btn props={"/mode"} />
     </div>
   );
 };
