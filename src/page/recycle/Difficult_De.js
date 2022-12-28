@@ -2,6 +2,7 @@ import Menu_Bar from "../../Menu_Bar";
 import Position from "../../Position";
 import { useLocation } from "react-router-dom";
 import { Link } from "react-scroll";
+import List_Btn from "../../List_Btn";
 const Difficult_De = () => {
   const { state } = useLocation();
 
@@ -72,6 +73,7 @@ const Difficult_De = () => {
           </div>
         </div>
       </div>
+      <List_Btn props={"/difficult"} />
     </div>
   );
 };

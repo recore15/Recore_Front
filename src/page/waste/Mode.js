@@ -1,17 +1,20 @@
 import { useNavigate } from "react-router-dom";
 import Menu_Bar from "../../Menu_Bar";
 import Position from "../../Position";
-const Guide = () => {
+const Mode = () => {
   const navigate = useNavigate();
   return (
-    <div className="Guide">
+    <div className="Mode">
       <Menu_Bar />
       <div className="main">
         <div className="title">
           <div className="title_menu">
             <div className="name">
-              <h2>재활용 분리 방법 안내</h2>
-              <Position title1={"분리수거"} title2={"재활용 분리방법 안내"} />
+              <h2>음식물 쓰레기 버리는 법 안내</h2>
+              <Position
+                title1={"음식물 쓰레기"}
+                title2={"음식물 쓰레기 버리는 법 안내"}
+              />
             </div>
             <div className="search">
               <input placeholder="검색어를 입력하시오"></input>
@@ -24,7 +27,7 @@ const Guide = () => {
             <div className="box">
               <button
                 onClick={() => {
-                  navigate("/detail", {
+                  navigate("/mode_De", {
                     state: [
                       "물품이름1",
                       "../Img/temporary.png",
@@ -45,7 +48,7 @@ const Guide = () => {
             <div className="box">
               <button
                 onClick={() => {
-                  navigate("/detail", {
+                  navigate("/mode_De", {
                     state: [
                       "물품이름2",
                       "../Img/temporary.png",
@@ -66,7 +69,7 @@ const Guide = () => {
             <div className="box">
               <button
                 onClick={() => {
-                  navigate("/detail", {
+                  navigate("/mode_De", {
                     state: [
                       "물품이름3",
                       "../Img/temporary.png",
@@ -89,7 +92,7 @@ const Guide = () => {
             <div className="box">
               <button
                 onClick={() => {
-                  navigate("/detail", {
+                  navigate("/mode_De", {
                     state: [
                       "물품이름4",
                       "물품사진",
@@ -110,7 +113,7 @@ const Guide = () => {
             <div className="box">
               <button
                 onClick={() => {
-                  navigate("/detail", {
+                  navigate("/mode_De", {
                     state: [
                       "물품이름5",
                       "물품사진",
@@ -131,7 +134,7 @@ const Guide = () => {
             <div className="box">
               <button
                 onClick={() => {
-                  navigate("/detail", {
+                  navigate("/mode_De", {
                     state: [
                       "물품이름6",
                       "물품사진",
@@ -155,4 +158,4 @@ const Guide = () => {
     </div>
   );
 };
-export default Guide;
+export default Mode;

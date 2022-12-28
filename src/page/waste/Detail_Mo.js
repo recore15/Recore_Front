@@ -1,12 +1,11 @@
 import { useLocation } from "react-router-dom";
-import List_Btn from "../../List_Btn";
 import Menu_Bar from "../../Menu_Bar";
-
-const Detail = () => {
+import List_Btn from "../../List_Btn";
+const Detail_Mo = () => {
   const { state } = useLocation();
   console.log(state);
   return (
-    <div className="Detail">
+    <div className="Detail_Mo">
       <Menu_Bar />
       <div className="main">
         <div>
@@ -16,7 +15,7 @@ const Detail = () => {
           </div>
           <div className="line"></div>
           <div className="title">
-            <h1>재활용 분리 방법 안내</h1>
+            <h1>음식물 쓰레기 버리는 법 안내</h1>
           </div>
           <div className="content">
             <img alt={state[0]} src={state[1]} />
@@ -58,8 +57,8 @@ const Detail = () => {
           </div>
         </div>
       </div>
-      <List_Btn props={"/guide"} />
+      <List_Btn />
     </div>
   );
 };
-export default Detail;
+export default Detail_Mo;
