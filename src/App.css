@@ -673,15 +673,19 @@
   width: 20%;
 }
 .Write_Re .main .content .row input {
-  width: 900px;
+  width: 950px;
+  height: 60px;
   border: solid 1px #ebebeb;
   border-radius: 12px;
   font-size: 20px;
+  margin-bottom: 0px;
 }
 .Write_Re .main .content .row button {
   border: none;
   background-color: white;
   font-size: 20px;
+  margin-left: 200px;
+  margin-top: 15px;
 }
 .Write_Re .main .register_Btn {
   display: flex;
