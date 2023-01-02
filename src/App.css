@@ -562,3 +562,138 @@
   color: white;
   border-radius: 10px;
 }
+
+.Recipe .main {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.Recipe .main .title {
+  display: flex;
+  margin-top: 100px;
+}
+.Recipe .main .title button {
+  margin-top: 50px;
+  margin-left: 700px;
+  width: 80px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  background-color: #adc178;
+  color: white;
+  font-size: 18px;
+}
+.Recipe .main .content {
+  flex-direction: row;
+  display: flex;
+}
+.Recipe .main .content .column {
+  margin-top: 65px;
+  margin-right: 60px;
+  margin-left: 60px;
+}
+.Recipe .main .content .column .box {
+  margin-bottom: 110px;
+}
+.Recipe .main .content .column .box button {
+  width: 240px;
+  height: 245px;
+  padding-left: 0px;
+  padding-top: 0px;
+  border: none;
+}
+.Recipe .main .content .column .box button img {
+  width: 240px;
+  height: 245px;
+}
+
+.Detail_Re .main {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+.Detail_Re .title {
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+.Detail_Re .title .row {
+  flex-direction: row;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.Detail_Re .title .row h1 {
+  margin-right: 30px;
+}
+.Detail_Re .title .row h3 {
+  margin-right: 450px;
+  margin-top: 0px;
+  color: #c6c6c6;
+}
+.Detail_Re .title .row img {
+  width: 510px;
+  height: 425px;
+  margin-right: 120px;
+  background-color: #d9d9d9;
+}
+.Detail_Re .line_hr hr {
+  height: 2px;
+  width: 1050px;
+  background-color: #adc178;
+  border: none;
+}
+
+.Write_Re .main {
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+.Write_Re .main .line_hr1 hr {
+  width: 1050px;
+  height: 2px;
+  background-color: #adc178;
+  border: none;
+}
+.Write_Re .main .line_hr2 hr {
+  width: 1050px;
+  height: 2px;
+  background-color: #adc178;
+  border: none;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+.Write_Re .main .content .row {
+  margin-top: 10px;
+  flex-direction: row;
+  display: flex;
+}
+.Write_Re .main .content .row h3 {
+  width: 20%;
+}
+.Write_Re .main .content .row input {
+  width: 900px;
+  border: solid 1px #ebebeb;
+  border-radius: 12px;
+  font-size: 20px;
+}
+.Write_Re .main .content .row button {
+  border: none;
+  background-color: white;
+  font-size: 20px;
+}
+.Write_Re .main .register_Btn {
+  display: flex;
+  justify-content: space-between;
+}
+.Write_Re .main .register_Btn button {
+  background-color: #adc178;
+  color: white;
+  border: none;
+  width: 80px;
+  height: 50px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-top: 70px;
+}

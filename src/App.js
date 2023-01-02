@@ -7,6 +7,9 @@ import Difficult from "./page/recycle/Difficult";
 import Difficult_De from "./page/recycle/Difficult_De";
 import Mode from "./page/waste/Mode";
 import Detail_Mo from "./page/waste/Detail_Mo";
+import Recipe from "./page/waste/Recipe";
+import Detail_Re from "./page/waste/Detail_Re";
+import Write_Re from "./page/waste/Write_Re";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
         <Route path="/difficult_De" element={<Difficult_De />} />
         <Route path="/mode" element={<Mode />} />
         <Route path="/mode_De" element={<Detail_Mo />} />
+        <Route path="/recipe" element={<Recipe />} />
+        <Route path="/recipe_De" element={<Detail_Re />} />
+        <Route path="/write_Re" element={<Write_Re />} />
       </Routes>
     </BrowserRouter>
   );

@@ -31,7 +31,7 @@ const MainPage = () => {
                 <a href="/mode">음식물 쓰레기 버리는 법</a>
               </li>
               <li>
-                <a href="#">레시피공유 위드 에코</a>
+                <a href="/recipe">레시피공유 위드 에코</a>
               </li>
             </ul>
           </li>
