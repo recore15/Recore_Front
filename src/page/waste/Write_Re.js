@@ -1,6 +1,17 @@
+import { useState } from "react";
+
 import Menu_Bar from "../../Menu_Bar";
+import CreateInput from "./CreateInput";
 
 const Write_Re = () => {
+  const [countList, setCountList] = useState([0]);
+  const onAddDetailDiv = () => {
+    let countArr = [...countList];
+    let counter = countArr.slice(-1)[0];
+    counter += 1;
+    countArr.push(counter);
+    setCountList(countArr);
+  };
   return (
     <div className="Write_Re">
       <Menu_Bar />
@@ -32,13 +43,13 @@ const Write_Re = () => {
               <h3>재료</h3>
               <input />
             </div>
+
             <div className="row">
-              <h3>조리 방법</h3>
-              <input />
-            </div>
-            <div className="row">
-              <h3></h3>
-              <button>+ 방법 추가</button>
+              <div className="add_btn">
+                <CreateInput countList={countList} />
+
+                <button onClick={onAddDetailDiv}>+ 방법추가</button>
+              </div>
             </div>
           </div>
           <div className="register_Btn">
