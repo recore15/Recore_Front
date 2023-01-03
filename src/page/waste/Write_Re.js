@@ -12,6 +12,9 @@ const Write_Re = () => {
     countArr.push(counter);
     setCountList(countArr);
   };
+  const onRegist = () => {
+    alert("등록되었습니다!!");
+  };
   return (
     <div className="Write_Re">
       <Menu_Bar />
@@ -54,7 +57,7 @@ const Write_Re = () => {
           </div>
           <div className="register_Btn">
             <div></div>
-            <button>등록하기</button>
+            <button onClick={onRegist}>등록하기</button>
           </div>
         </div>
       </div>
