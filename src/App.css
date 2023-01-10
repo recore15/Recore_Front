@@ -217,7 +217,7 @@
 .Guide .main .content .box img {
   width: 375px;
   height: 310px;
-  object-fit: cover;
+  object-fit: fill;
   font-size: 20px;
 }
 .Guide .main .content .box h3 {
@@ -269,6 +269,7 @@
   width: 514px;
   height: 423px;
   background-color: #d9d9d9;
+  object-fit: fill;
 }
 .Detail .content .name {
   margin-left: 200px;
@@ -277,6 +278,7 @@
   border-radius: 10px 10px 0 0;
   width: 452px;
   height: 53px;
+  white-space: pre-line;
 }
 .Detail .content .name h2 {
   margin-top: 10px;
@@ -391,7 +393,7 @@
   width: 480px;
   height: 390px;
 }
-.Difficult_De .main .de_content .box .picture > img {
+.Difficult_De .main .de_content .box .picture img {
   width: 480px;
   height: 390px;
   object-fit: cover;
