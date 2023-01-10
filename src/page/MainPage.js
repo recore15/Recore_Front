@@ -1,11 +1,11 @@
-import { useState } from "react";
+// import { useState } from "react";
 import Sites from "../Sites";
-import Modal from "./Modal";
+// import Modal from "./Modal";
 const MainPage = () => {
-  const [modalVisible, setModalVisible] = useState(true);
-  const closeModal = () => {
-    setModalVisible(false);
-  };
+  // const [modalVisible, setModalVisible] = useState(true);
+  // const closeModal = () => {
+  //   setModalVisible(false);
+  // };
   return (
     <div className="MainPage">
       <div className="span">
@@ -68,14 +68,14 @@ const MainPage = () => {
       <div className="site">
         <Sites />
       </div>
-      {modalVisible && (
+      {/* {modalVisible && (
         <Modal
           visible={modalVisible}
           closeable={true}
           maskClosable={true}
           onClose={closeModal}
         ></Modal>
-      )}
+      )} */}
     </div>
   );
 };
