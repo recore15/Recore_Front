@@ -26,21 +26,25 @@ const Guide = () => {
                 onClick={() => {
                   navigate("/detail", {
                     state: [
-                      "물품이름1",
-                      "../Img/temporary.png",
-                      "단계1",
-                      "../Img/temporary.png",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
+                      "페트병",
+                      "Img/recycle/분리수거/페트병.jpg",
+                      "#페트병 #PET #투명 페트병\n재활용: 가능\n분류: PET",
+                      "비운다",
+                      "페트병 안을 깨끗이 비운다.",
+                      "Img/recycle/분리수거/페트_비운다.jpg",
+                      "제거한다",
+                      "제품의 표면에 부착된 라벨,뚜껑등의 이물질을 제거한다.",
+                      "Img/recycle/분리수거/페트_제거한다.jpg",
+                      "줄인다",
+                      "찌그려트려 부피를 최소화한다.",
+                      "Img/recycle/분리수거/페트_줄인다.jpg",
                     ],
                   });
                 }}
               >
-                <img alt="물품이름1" src="../Img/temporary.png" />
+                <img alt="페트병" src="Img/recycle/분리수거/페트병.jpg" />
               </button>
-              <h3>물품이름1</h3>
+              <h3>페트병</h3>
             </div>
             <div className="box">
               <button
@@ -48,7 +52,7 @@ const Guide = () => {
                   navigate("/detail", {
                     state: [
                       "물품이름2",
-                      "../Img/temporary.png",
+                      "Img/temporary.png",
                       "단계1",
                       "단계1사진",
                       "단계2",
@@ -69,7 +73,7 @@ const Guide = () => {
                   navigate("/detail", {
                     state: [
                       "물품이름3",
-                      "../Img/temporary.png",
+                      "../../Img/recycle/분리수거/페트병.jpg",
                       "단계1",
                       "단계1사진",
                       "단계2",
