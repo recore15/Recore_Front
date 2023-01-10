@@ -391,13 +391,20 @@
   width: 480px;
   height: 390px;
 }
+.Difficult_De .main .de_content .box .picture > img {
+  width: 480px;
+  height: 390px;
+  object-fit: cover;
+}
 .Difficult_De .main .de_content .box .writing {
   background-color: white;
   width: 480px;
   height: 390px;
   padding-left: 20px;
 }
-
+.Difficult_De .main .de_content .box .writing h5 {
+  white-space: pre-line;
+}
 .Mode .title {
   flex-direction: column;
   display: flex;
