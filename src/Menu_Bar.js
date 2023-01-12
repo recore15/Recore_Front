@@ -50,7 +50,7 @@ const Menu_Bar = () => {
                     <a href="#">에코플레이스</a>
                   </li>
                   <li>
-                    <a href="/volMain">봉사/캠페인</a>
+                    <NavLink to="/volMain">봉사/캠페인</NavLink>
                   </li>
                   <li>
                     <a href="#">순기능</a>
