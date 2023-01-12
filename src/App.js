@@ -31,6 +31,7 @@ function App() {
         <Route path="/volMain" element={<VolMain />} />
         <Route path="/volPostView" element={<VolPostView />} />
         <Route path="/volPostWrite" element={<VolPostWrite />} />
+        
       </Routes>
     </BrowserRouter>
   );
