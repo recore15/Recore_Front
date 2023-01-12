@@ -51,42 +51,50 @@ const Guide = () => {
                 onClick={() => {
                   navigate("/detail", {
                     state: [
-                      "물품이름2",
-                      "Img/temporary.png",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
+                      "건전지",
+                      "Img/recycle/분리수거/건전지.jpg",
+                      "#건전지",
+                      "비운다",
+                      "페트병 안을 깨끗이 비운다.",
+                      "Img/recycle/분리수거/페트_비운다.jpg",
+                      "제거한다",
+                      "제품의 표면에 부착된 라벨,뚜껑등의 이물질을 제거한다.",
+                      "Img/recycle/분리수거/페트_제거한다.jpg",
+                      "줄인다",
+                      "찌그려트려 부피를 최소화한다.",
+                      "Img/recycle/분리수거/페트_줄인다.jpg",
                     ],
                   });
                 }}
               >
-                <img alt="물품이름2" src="../Img/temporary.png" />
+                <img alt="건전지" src="Img/recycle/분리수거/건전지.jpg" />
               </button>
-              <h3>물품이름2</h3>
+              <h3>건전지</h3>
             </div>
             <div className="box">
               <button
                 onClick={() => {
                   navigate("/detail", {
                     state: [
-                      "물품이름3",
-                      "../../Img/recycle/분리수거/페트병.jpg",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
+                      "박스",
+                      "Img/recycle/분리수거/박스.jpg",
+                      "#박스",
+                      "비운다",
+                      "페트병 안을 깨끗이 비운다.",
+                      "Img/recycle/분리수거/페트_비운다.jpg",
+                      "제거한다",
+                      "제품의 표면에 부착된 라벨,뚜껑등의 이물질을 제거한다.",
+                      "Img/recycle/분리수거/페트_제거한다.jpg",
+                      "줄인다",
+                      "찌그려트려 부피를 최소화한다.",
+                      "Img/recycle/분리수거/페트_줄인다.jpg",
                     ],
                   });
                 }}
               >
-                <img alt="물품이름3" src="../Img/temporary.png" />
+                <img alt="박스" src="Img/recycle/분리수거/박스.jpg" />
               </button>
-              <h3>물품이름3</h3>
+              <h3>박스</h3>
             </div>
           </div>
           <div className="column2">
@@ -95,63 +103,75 @@ const Guide = () => {
                 onClick={() => {
                   navigate("/detail", {
                     state: [
-                      "물품이름4",
-                      "물품사진",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
+                      "신문지",
+                      "Img/recycle/분리수거/신문지.jpg",
+                      "#신문지",
+                      "비운다",
+                      "페트병 안을 깨끗이 비운다.",
+                      "Img/recycle/분리수거/페트_비운다.jpg",
+                      "제거한다",
+                      "제품의 표면에 부착된 라벨,뚜껑등의 이물질을 제거한다.",
+                      "Img/recycle/분리수거/페트_제거한다.jpg",
+                      "줄인다",
+                      "찌그려트려 부피를 최소화한다.",
+                      "Img/recycle/분리수거/페트_줄인다.jpg",
                     ],
                   });
                 }}
               >
-                <img alt="물품이름4" src="" />
+                <img alt="신문지" src="Img/recycle/분리수거/신문지.jpg" />
               </button>
-              <h3>물품이름4</h3>
+              <h3>신문지</h3>
             </div>
             <div className="box">
               <button
                 onClick={() => {
                   navigate("/detail", {
                     state: [
-                      "물품이름5",
-                      "물품사진",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
+                      "아령",
+                      "Img/recycle/분리수거/아령.jpg",
+                      "#아령",
+                      "비운다",
+                      "페트병 안을 깨끗이 비운다.",
+                      "Img/recycle/분리수거/페트_비운다.jpg",
+                      "제거한다",
+                      "제품의 표면에 부착된 라벨,뚜껑등의 이물질을 제거한다.",
+                      "Img/recycle/분리수거/페트_제거한다.jpg",
+                      "줄인다",
+                      "찌그려트려 부피를 최소화한다.",
+                      "Img/recycle/분리수거/페트_줄인다.jpg",
                     ],
                   });
                 }}
               >
-                <img alt="물품이름5" src="" />
+                <img alt="아령" src="Img/recycle/분리수거/아령.jpg" />
               </button>
-              <h3>물품이름5</h3>
+              <h3>아령</h3>
             </div>
             <div className="box">
               <button
                 onClick={() => {
                   navigate("/detail", {
                     state: [
-                      "물품이름6",
-                      "물품사진",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
+                      "약",
+                      "Img/recycle/분리수거/약.jpg",
+                      "#약",
+                      "비운다",
+                      "페트병 안을 깨끗이 비운다.",
+                      "Img/recycle/분리수거/페트_비운다.jpg",
+                      "제거한다",
+                      "제품의 표면에 부착된 라벨,뚜껑등의 이물질을 제거한다.",
+                      "Img/recycle/분리수거/페트_제거한다.jpg",
+                      "줄인다",
+                      "찌그려트려 부피를 최소화한다.",
+                      "Img/recycle/분리수거/페트_줄인다.jpg",
                     ],
                   });
                 }}
               >
-                <img alt="물품이름6" src="" />
+                <img alt="약" src="Img/recycle/분리수거/약.jpg" />
               </button>
-              <h3>물품이름6</h3>
+              <h3>약</h3>
             </div>
           </div>
         </div>

@@ -29,29 +29,31 @@ const Mode = () => {
                 onClick={() => {
                   navigate("/mode_De", {
                     state: [
-                      "물품이름1",
-                      "../Img/temporary.png",
-                      "단계1",
-                      "../Img/temporary.png",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
+                      "수박",
+                      "Img/waste/음식물쓰레기/수박.jpg",
+                      "#과일#수박#파인애플#코코넛\n재활용: 가능\n분류: 음식물 쓰레기, 일반쓰레기",
+                      "단단한 껍질과 안의 과육을 분리한다.",
+                      "Img/waste/음식물쓰레기/수박_분리한다.jpg",
+                      "과육의 크기가 큰 경우, 잘게 썰어서 크기를 줄인다.",
+                      "Img/waste/음식물쓰레기/수박_줄인다.jpg",
+                      "과육은 음식물쓰레기로, 단단한 껍질은 일반 쓰레기로 배출한다.",
+                      "Img/waste/음식물쓰레기/수박_배출한다.jpg",
                     ],
                   });
                 }}
               >
-                <img alt="물품이름1" src="../Img/temporary.png" />
+                <img alt="수박" src="Img/waste/음식물쓰레기/수박.jpg" />
               </button>
-              <h3>물품이름1</h3>
+              <h3>수박</h3>
             </div>
             <div className="box">
               <button
                 onClick={() => {
                   navigate("/mode_De", {
                     state: [
-                      "물품이름2",
-                      "../Img/temporary.png",
+                      "고추장",
+                      "Img/waste/음식물쓰레기/고기.jpg",
+                      "#고기",
                       "단계1",
                       "단계1사진",
                       "단계2",
@@ -62,17 +64,18 @@ const Mode = () => {
                   });
                 }}
               >
-                <img alt="물품이름2" src="../Img/temporary.png" />
+                <img alt="고기" src="Img/waste/음식물쓰레기/고기.jpg" />
               </button>
-              <h3>물품이름2</h3>
+              <h3>고기</h3>
             </div>
             <div className="box">
               <button
                 onClick={() => {
                   navigate("/mode_De", {
                     state: [
-                      "물품이름3",
-                      "../Img/temporary.png",
+                      "고추장",
+                      "Img/waste/음식물쓰레기/고추장.jpg",
+                      "#고추장",
                       "단계1",
                       "단계1사진",
                       "단계2",
@@ -83,9 +86,9 @@ const Mode = () => {
                   });
                 }}
               >
-                <img alt="물품이름3" src="../Img/temporary.png" />
+                <img alt="고추장" src="Img/waste/음식물쓰레기/고추장.jpg" />
               </button>
-              <h3>물품이름3</h3>
+              <h3>고추장</h3>
             </div>
           </div>
           <div className="column2">
@@ -94,8 +97,9 @@ const Mode = () => {
                 onClick={() => {
                   navigate("/mode_De", {
                     state: [
-                      "물품이름4",
-                      "물품사진",
+                      "과일",
+                      "Img/waste/음식물쓰레기/과일.jpg",
+                      "#과일",
                       "단계1",
                       "단계1사진",
                       "단계2",
@@ -106,17 +110,18 @@ const Mode = () => {
                   });
                 }}
               >
-                <img alt="물품이름4" src="" />
+                <img alt="과일" src="Img/waste/음식물쓰레기/과일.jpg" />
               </button>
-              <h3>물품이름4</h3>
+              <h3>과일</h3>
             </div>
             <div className="box">
               <button
                 onClick={() => {
                   navigate("/mode_De", {
                     state: [
-                      "물품이름5",
-                      "물품사진",
+                      "김치",
+                      "Img/waste/음식물쓰레기/김치.jpg",
+                      "#김치",
                       "단계1",
                       "단계1사진",
                       "단계2",
@@ -127,17 +132,18 @@ const Mode = () => {
                   });
                 }}
               >
-                <img alt="물품이름5" src="" />
+                <img alt="김치" src="Img/waste/음식물쓰레기/김치.jpg" />
               </button>
-              <h3>물품이름5</h3>
+              <h3>김치</h3>
             </div>
             <div className="box">
               <button
                 onClick={() => {
                   navigate("/mode_De", {
                     state: [
-                      "물품이름6",
-                      "물품사진",
+                      "달걀껍질",
+                      "Img/waste/음식물쓰레기/달걀껍질.jpg",
+                      "#달걀껍질",
                       "단계1",
                       "단계1사진",
                       "단계2",
@@ -148,9 +154,9 @@ const Mode = () => {
                   });
                 }}
               >
-                <img alt="물품이름6" src="" />
+                <img alt="달걀껍질" src="Img/waste/음식물쓰레기/달걀껍질.jpg" />
               </button>
-              <h3>물품이름6</h3>
+              <h3>달걀껍질</h3>
             </div>
           </div>
         </div>
