@@ -8,12 +8,10 @@ import Menu_Bar from "../../Menu_Bar";
 import Position from "../../Position";
 
 const Wrapper = styled.div`
-    padding: 16px;
     width: calc(100% - 32px);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
 `;
 
 const Container = styled.div`
@@ -27,6 +25,16 @@ const Container = styled.div`
     }
 `;
 
+const PageName = styled.h1`
+    margin-top: 97px;
+`;
+
+const SubName = styled.h3`
+    letter-spacing: 4px;
+    font-weight: bold;
+`;
+
+
 function VolMain(props) {
     const {} = props;
 
@@ -35,21 +43,21 @@ function VolMain(props) {
     return (
         <Wrapper>
             <Menu_Bar/>
-            <h1>봉사/캠페인</h1>
+            <PageName>봉사/캠페인</PageName>
             <Position title1={"에코프렌드"} title2={"봉사/캠페인"}/>
-            <h3>인기활동</h3>
+            <SubName>인기활동</SubName>
             <Container>
                 <PostList
                     posts={data}
                     onClickItem={(item) => {
-                        navigate('/post/${item.id}');
+                        navigate('/volMain/${item.id}');
                     }}
                 />
 
                 <Button
                     title="글쓰기"
                     onClick={() => {
-                        navigate("/post-write");
+                        navigate("/volPostWrite");
                     }}
                 />
             </Container>
