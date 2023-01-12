@@ -49,7 +49,12 @@ const Input = styled.input`
     width: 610px;
     height: 40px;
     border: 1px solid #EBEBEB;
-    border-radius: 1px;
+    border-radius: 5px;
+`;
+
+const Wrapper3 = styled.div`
+    margin-top: 15px;
+    margin-left: 640px;
 `;
 
 function VolPostWrite(props) {
@@ -66,15 +71,15 @@ function VolPostWrite(props) {
                 <Container>
                     <Wrapper2>
                         <p>제목</p>
-                        <Input placeholder="제목을 입력 해주세요" />
+                        <Input placeholder="  제목을 입력 해주세요" />
                     </Wrapper2>
                     <Wrapper2>
                         <p>첨부파일</p>
-                        <Input placeholder="파일을 업로드 해주세요" />
+                        <Input placeholder="  파일을 업로드 해주세요" />
                     </Wrapper2>
                     <Wrapper2>
                         <p>진행 날짜</p>
-                        <Input placeholder="ex) 2023-01-30" />
+                        <Input placeholder="  ex) 2023-01-30" />
                     </Wrapper2>
                     <Line />
                     <TextInput
@@ -84,13 +89,14 @@ function VolPostWrite(props) {
                             setContent(event.target.value);
                         }}
                     />
-
-                    <Button
-                        title="등록하기"
-                        onClick={() => {
-                            navigate("/");
-                        }}
-                    />
+                    <Wrapper3>
+                        <Button
+                            title="등록하기"
+                            onClick={() => {
+                                navigate("/");
+                            }}
+                        />
+                    </Wrapper3>
                 </Container>
             </Wrapper>
         </div>
