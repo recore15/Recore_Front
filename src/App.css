@@ -530,6 +530,7 @@
 }
 .Detail_Mo .content .name h2 {
   margin-top: 10px;
+  white-space: pre-line;
 }
 .Detail_Mo .main .how {
   margin-top: 50px;

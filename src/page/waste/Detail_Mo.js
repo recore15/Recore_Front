@@ -21,6 +21,7 @@ const Detail_Mo = () => {
             <img alt={state[0]} src={state[1]} />
             <div className="name">
               <h2>{state[0]}</h2>
+              <h2>{state[2]}</h2>
             </div>
           </div>
           <div className="how">
@@ -28,29 +29,29 @@ const Detail_Mo = () => {
             <div className="expl">
               <div className="box">
                 <div className="image">
-                  <img alt={state[2]} src={state[3]} />
+                  <img alt={state[3]} src={state[4]} />
                 </div>
                 <div>
                   <h3>step1</h3>
-                  <h2>{state[2]}</h2>
+                  <h2>{state[3]}</h2>
                 </div>
               </div>
               <div className="box">
                 <div className="image">
-                  <img alt={state[4]} src={state[5]} />
+                  <img alt={state[5]} src={state[6]} />
                 </div>
                 <div>
                   <h3>step2</h3>
-                  <h2>{state[4]}</h2>
+                  <h2>{state[5]}</h2>
                 </div>
               </div>
               <div className="box">
                 <div className="image">
-                  <img alt={state[6]} src={state[7]} />
+                  <img alt={state[7]} src={state[8]} />
                 </div>
                 <div>
                   <h3>step3</h3>
-                  <h2>{state[6]}</h2>
+                  <h2>{state[7]}</h2>
                 </div>
               </div>
             </div>
