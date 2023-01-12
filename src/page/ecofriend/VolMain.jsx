@@ -4,6 +4,8 @@ import Button from "./Button";
 import data from '../../data.json';
 import { findByLabelText } from "@testing-library/react";
 import { useNavigate } from "react-router-dom";
+import Menu_Bar from "../../Menu_Bar";
+import Position from "../../Position";
 
 const Wrapper = styled.div`
     padding: 16px;
@@ -32,18 +34,22 @@ function VolMain(props) {
 
     return (
         <Wrapper>
+            <Menu_Bar/>
+            <h1>봉사/캠페인</h1>
+            <Position title1={"에코프렌드"} title2={"봉사/캠페인"}/>
+            <h3>인기활동</h3>
             <Container>
-                <Button
-                    title="글쓰기"
-                    onClick={() => {
-                        navigate("/post-write");
-                    }}
-                />
-
                 <PostList
                     posts={data}
                     onClickItem={(item) => {
                         navigate('/post/${item.id}');
+                    }}
+                />
+
+                <Button
+                    title="글쓰기"
+                    onClick={() => {
+                        navigate("/post-write");
                     }}
                 />
             </Container>
