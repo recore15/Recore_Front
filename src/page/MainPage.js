@@ -1,11 +1,5 @@
-// import { useState } from "react";
-import Sites from "../Sites";
-// import Modal from "./Modal";
+import Quiz from "../Quiz";
 const MainPage = () => {
-  // const [modalVisible, setModalVisible] = useState(true);
-  // const closeModal = () => {
-  //   setModalVisible(false);
-  // };
   return (
     <div className="MainPage">
       <div className="span">
@@ -65,17 +59,9 @@ const MainPage = () => {
         <input placeholder="검색어를 입력하시오"></input>
         <button></button>
       </div>
-      <div className="site">
-        <Sites />
+      <div className="quiz">
+        <Quiz />
       </div>
-      {/* {modalVisible && (
-        <Modal
-          visible={modalVisible}
-          closeable={true}
-          maskClosable={true}
-          onClose={closeModal}
-        ></Modal>
-      )} */}
     </div>
   );
 };

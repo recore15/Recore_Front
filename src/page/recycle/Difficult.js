@@ -32,7 +32,12 @@ const Difficult = () => {
                     })
                   }
                 >
-                  <div className="picture"></div>
+                  <div className="picture">
+                    <img
+                      src="Img/recycle/까다로운 분리수거/배달기사.png"
+                      alt="배달"
+                    />
+                  </div>
                   <div className="title">
                     <h2>배달음식 먹고 난 후!</h2>
                     <h4>이렇게 분리수거 해주세요</h4>
@@ -52,7 +57,9 @@ const Difficult = () => {
                     })
                   }
                 >
-                  <div className="picture"></div>
+                  <div className="picture">
+                    <img src="Img/recycle/분리수거/아령2.jpg" alt="아령" />
+                  </div>
                   <div className="title">
                     <h2>복합재료!</h2>
                     <h4>이렇게 분리수거 해주세요</h4>
@@ -74,7 +81,12 @@ const Difficult = () => {
                     })
                   }
                 >
-                  <div className="picture"></div>
+                  <div className="picture">
+                    <img
+                      src="Img/recycle/까다로운 분리수거/택배.jpg"
+                      alt="택배"
+                    />
+                  </div>
                   <div className="title">
                     <h2>택배 수령 후!</h2>
                     <h4>이렇게 분리수거 해주세요</h4>
@@ -94,7 +106,13 @@ const Difficult = () => {
                     })
                   }
                 >
-                  <div className="picture"></div>
+                  <div className="picture">
+                    {" "}
+                    <img
+                      src="Img/recycle/까다로운 분리수거/서랍장.jpg"
+                      alt="서랍장"
+                    />
+                  </div>
                   <div className="title">
                     <h2>대형 폐기물!</h2>
                     <h4>이렇게 분리수거 해주세요</h4>
