@@ -1,4 +1,4 @@
-import Sites from "../Sites";
+import Quiz from "../Quiz";
 const MainPage = () => {
   return (
     <div className="MainPage">
@@ -59,8 +59,8 @@ const MainPage = () => {
         <input placeholder="검색어를 입력하시오"></input>
         <button></button>
       </div>
-      <div className="site">
-        <Sites />
+      <div className="quiz">
+        <Quiz />
       </div>
     </div>
   );

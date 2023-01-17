@@ -49,42 +49,6 @@
   height: 80px;
 }
 
-.Sites {
-  position: fixed;
-  bottom: 0;
-  background-color: #f9f9f9;
-  height: 194px;
-  width: 100%;
-}
-.Sites h3 {
-  margin-left: 150px;
-  width: 120px;
-}
-.Sites .mid {
-  display: flex;
-  justify-content: space-between;
-}
-.Sites .mid svg {
-  width: 100px;
-  height: 50px;
-}
-.Sites .mid .arrow1 {
-  margin-left: 125px;
-}
-.Sites .mid .arrow2 {
-  margin-right: 125px;
-}
-.Sites .mid .card {
-  display: flex;
-}
-.Sites .mid .card button {
-  margin-left: 50px;
-  margin-right: 50px;
-  border-radius: 15px;
-  background-color: #d9d9d9;
-  border: none;
-}
-
 .Menu_Bar .menu {
   flex-direction: column;
 }
@@ -217,7 +181,7 @@
 .Guide .main .content .box img {
   width: 375px;
   height: 310px;
-  object-fit: cover;
+  object-fit: fill;
   font-size: 20px;
 }
 .Guide .main .content .box h3 {
@@ -269,6 +233,7 @@
   width: 514px;
   height: 423px;
   background-color: #d9d9d9;
+  object-fit: fill;
 }
 .Detail .content .name {
   margin-left: 200px;
@@ -277,6 +242,7 @@
   border-radius: 10px 10px 0 0;
   width: 452px;
   height: 53px;
+  white-space: pre-line;
 }
 .Detail .content .name h2 {
   margin-top: 10px;
@@ -333,6 +299,11 @@
   width: 480px;
   height: 360px;
   background-color: #f4f4f4;
+}
+.Difficult .block .main .box .picture img {
+  width: 480px;
+  height: 360px;
+  object-fit: fill;
 }
 .Difficult .block .main .box .title {
   width: 480px;
@@ -391,13 +362,20 @@
   width: 480px;
   height: 390px;
 }
+.Difficult_De .main .de_content .box .picture img {
+  width: 480px;
+  height: 390px;
+  object-fit: cover;
+}
 .Difficult_De .main .de_content .box .writing {
   background-color: white;
   width: 480px;
   height: 390px;
   padding-left: 20px;
 }
-
+.Difficult_De .main .de_content .box .writing h5 {
+  white-space: pre-line;
+}
 .Mode .title {
   flex-direction: column;
   display: flex;
@@ -521,6 +499,7 @@
 }
 .Detail_Mo .content .name h2 {
   margin-top: 10px;
+  white-space: pre-line;
 }
 .Detail_Mo .main .how {
   margin-top: 50px;
@@ -700,4 +679,39 @@
   font-size: 16px;
   border-radius: 15px;
   margin-top: 70px;
+}
+
+.quiz {
+  position: fixed;
+  bottom: 0;
+  background-color: #f9f9f9;
+  height: 150px;
+  width: 100%;
+}
+
+.Quiz {
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.Quiz button {
+  width: 15%;
+  border: none;
+  background-color: #f9f9f9;
+}
+.Quiz .blank {
+  width: 15%;
+  border: none;
+  background-color: #f9f9f9;
+}
+.Quiz .nums {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Quiz svg {
+  width: 200px;
+  height: 80px;
 }
