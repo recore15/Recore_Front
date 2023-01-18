@@ -18,9 +18,9 @@ const Recipe = () => {
                 onClick={() =>
                   navigate("/recipe_De", {
                     state: [
-                      "음식이름1",
+                      "김밥",
                       "음식한줄소개",
-                      "음식1사진",
+                      "Img/waste/레시피/김밥.png",
                       "작성자",
                       "준비 재료 목록",
                       "조리방법1",
@@ -29,18 +29,18 @@ const Recipe = () => {
                   })
                 }
               >
-                <img alt="음식이름1" src="../Img/temporary.png" />
+                <img alt="김밥" src="Img/waste/레시피/김밥.png" />
               </button>
-              <h3>음식이름</h3>
+              <h3>김밥</h3>
             </div>
             <div className="box">
               <button
                 onClick={() =>
                   navigate("/recipe_De", {
                     state: [
-                      "음식이름2",
+                      "깐풍기",
                       "음식한줄소개",
-                      "음식2사진",
+                      "Img/waste/레시피/치킨 깐풍기.png",
                       "작성자",
                       "준비 재료 목록",
                       "조리방법1",
@@ -49,18 +49,18 @@ const Recipe = () => {
                   })
                 }
               >
-                <img alt="음식이름2" src="../Img/temporary.png" />
+                <img alt="치킨 깐풍기" src="Img/waste/레시피/치킨 깐풍기.png" />
               </button>
-              <h3>음식이름</h3>
+              <h3>치킨 깐풍기</h3>
             </div>
             <div className="box">
               <button
                 onClick={() =>
                   navigate("/recipe_De", {
                     state: [
-                      "음식이름3",
+                      "라자냐",
                       "음식한줄소개",
-                      "음식3사진",
+                      "Img/waste/레시피/전 라자냐.png",
                       "작성자",
                       "준비 재료 목록",
                       "조리방법1",
@@ -69,29 +69,9 @@ const Recipe = () => {
                   })
                 }
               >
-                <img alt="음식이름3" src="" />
+                <img alt="전 라자냐" src="Img/waste/레시피/전 라자냐.png" />
               </button>
-              <h3>음식이름</h3>
-            </div>
-            <div className="box">
-              <button
-                onClick={() =>
-                  navigate("/recipe_De", {
-                    state: [
-                      "음식이름4",
-                      "음식한줄소개",
-                      "음식4사진",
-                      "작성자",
-                      "준비 재료 목록",
-                      "조리방법1",
-                      "조리방법2",
-                    ],
-                  })
-                }
-              >
-                <img alt="음식이름4" src="" />
-              </button>
-              <h3>음식이름</h3>
+              <h3>전 라자냐</h3>
             </div>
           </div>
           <div className="column">
@@ -100,9 +80,9 @@ const Recipe = () => {
                 onClick={() =>
                   navigate("/recipe_De", {
                     state: [
-                      "음식이름5",
+                      "백설기 샌드위치",
                       "음식한줄소개",
-                      "음식5사진",
+                      "Img/waste/레시피/백설기 샌드위치.png",
                       "작성자",
                       "준비 재료 목록",
                       "조리방법1",
@@ -111,18 +91,21 @@ const Recipe = () => {
                   })
                 }
               >
-                <img alt="음식이름5" src="" />
+                <img
+                  alt="백설기 샌드위치"
+                  src="Img/waste/레시피/백설기 샌드위치.png"
+                />
               </button>
-              <h3>음식이름</h3>
+              <h3>백설기 샌드위치</h3>
             </div>
             <div className="box">
               <button
                 onClick={() =>
                   navigate("/recipe_De", {
                     state: [
-                      "음식이름6",
+                      "브레드 푸딩",
                       "음식한줄소개",
-                      "음식6사진",
+                      "Img/waste/레시피/브레드 푸딩.png",
                       "작성자",
                       "준비 재료 목록",
                       "조리방법1",
@@ -131,18 +114,18 @@ const Recipe = () => {
                   })
                 }
               >
-                <img alt="음식이름6" src="../Img/temporary.png" />
+                <img alt="브레드 푸딩" src="Img/waste/레시피/브레드 푸딩.png" />
               </button>
-              <h3>음식이름</h3>
+              <h3>브레드푸딩</h3>
             </div>
             <div className="box">
               <button
                 onClick={() =>
                   navigate("/recipe_De", {
                     state: [
-                      "음식이름7",
+                      "자투리 월남쌈밥",
                       "음식한줄소개",
-                      "음식7사진",
+                      "Img/waste/레시피/자투리 월남쌈밥.png",
                       "작성자",
                       "준비 재료 목록",
                       "조리방법1",
@@ -151,29 +134,12 @@ const Recipe = () => {
                   })
                 }
               >
-                <img alt="음식이름7" src="../Img/temporary.png" />
+                <img
+                  alt="자투리 월남쌈밥"
+                  src="Img/waste/레시피/자투리 월남쌈밥.png"
+                />
               </button>
-              <h3>음식이름</h3>
-            </div>
-            <div className="box">
-              <button
-                onClick={() =>
-                  navigate("/recipe_De", {
-                    state: [
-                      "음식이름8",
-                      "음식한줄소개",
-                      "음식8사진",
-                      "작성자",
-                      "준비 재료 목록",
-                      "조리방법1",
-                      "조리방법2",
-                    ],
-                  })
-                }
-              >
-                <img alt="음식이름8" src="../Img/temporary.png" />
-              </button>
-              <h3>음식이름</h3>
+              <h3>자투리 월남쌈밥</h3>
             </div>
           </div>
           <div className="column">
@@ -182,9 +148,9 @@ const Recipe = () => {
                 onClick={() =>
                   navigate("/recipe_De", {
                     state: [
-                      "음식이름9",
+                      "비지 팬케이크",
                       "음식한줄소개",
-                      "음식9사진",
+                      "Img/waste/레시피/비지 팬케이크.png",
                       "작성자",
                       "준비 재료 목록",
                       "조리방법1",
@@ -193,18 +159,21 @@ const Recipe = () => {
                   })
                 }
               >
-                <img alt="음식이름9" src="" />
+                <img
+                  alt="비지 펜케이크"
+                  src="Img/waste/레시피/비지 팬케이크.png"
+                />
               </button>
-              <h3>음식이름</h3>
+              <h3>비지 팬케이크</h3>
             </div>
             <div className="box">
               <button
                 onClick={() =>
                   navigate("/recipe_De", {
                     state: [
-                      "음식이름10",
+                      "야채껍질 모듬튀김",
                       "음식한줄소개",
-                      "음식10사진",
+                      "Img/waste/레시피/야채껍질 모듬튀김.png",
                       "작성자",
                       "준비 재료 목록",
                       "조리방법1",
@@ -213,18 +182,21 @@ const Recipe = () => {
                   })
                 }
               >
-                <img alt="음식이름10" src="../Img/temporary.png" />
+                <img
+                  alt="야채껍질 모듬튀김"
+                  src="Img/waste/레시피/야채껍질 모듬튀김.png"
+                />
               </button>
-              <h3>음식이름</h3>
+              <h3>야채껍질 모듬튀김</h3>
             </div>
             <div className="box">
               <button
                 onClick={() =>
                   navigate("/recipe_De", {
                     state: [
-                      "음식이름11",
+                      "찌개 부침개",
                       "음식한줄소개",
-                      "음식11사진",
+                      "Img/waste/레시피/찌개 부침개.png",
                       "작성자",
                       "준비 재료 목록",
                       "조리방법1",
@@ -233,29 +205,9 @@ const Recipe = () => {
                   })
                 }
               >
-                <img alt="음식이름11" src="" />
+                <img alt="찌개 부침개" src="Img/waste/레시피/찌개 부침개.png" />
               </button>
-              <h3>음식이름</h3>
-            </div>
-            <div className="box">
-              <button
-                onClick={() =>
-                  navigate("/recipe_De", {
-                    state: [
-                      "음식이름12",
-                      "음식한줄소개",
-                      "음식12사진",
-                      "작성자",
-                      "준비 재료 목록",
-                      "조리방법1",
-                      "조리방법2",
-                    ],
-                  })
-                }
-              >
-                <img alt="음식이름12" src="../Img/temporary.png" />
-              </button>
-              <h3>음식이름</h3>
+              <h3>찌개 부침개</h3>
             </div>
           </div>
         </div>
