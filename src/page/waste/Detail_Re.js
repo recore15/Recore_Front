@@ -1,10 +1,10 @@
 import { useLocation } from "react-router-dom";
+import Box from "../../Box";
 import List_Btn from "../../List_Btn";
 import Menu_Bar from "../../Menu_Bar";
 
 const Detail_Re = () => {
   const { state } = useLocation();
-  console.log(state);
   return (
     <div className="Detail_Re">
       <Menu_Bar />
@@ -31,11 +31,15 @@ const Detail_Re = () => {
               <h3>{state[4]}</h3>
             </div>
             <div>
+              <br />
               <h2>조리방법</h2>
-              <h3>1. 조리방법</h3>
-              {state[5]}
-              <h3>2. 조리방법</h3>
-              {state[6]}
+              {state.map((item, idx) => {
+                if (idx % 2 == 1) {
+                  if (idx >= 5 && state[idx] != null) {
+                    return <Box k={state[idx]} g={state[idx + 1]} />;
+                  }
+                }
+              })}
             </div>
           </div>
         </div>
