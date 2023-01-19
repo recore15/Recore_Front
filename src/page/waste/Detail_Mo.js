@@ -29,29 +29,32 @@ const Detail_Mo = () => {
             <div className="expl">
               <div className="box">
                 <div className="image">
-                  <img alt={state[3]} src={state[4]} />
+                  <img alt={state[3]} src={state[5]} />
                 </div>
                 <div>
                   <h3>step1</h3>
                   <h2>{state[3]}</h2>
+                  <h3>{state[4]}</h3>
                 </div>
               </div>
               <div className="box">
                 <div className="image">
-                  <img alt={state[5]} src={state[6]} />
+                  <img alt={state[6]} src={state[8]} />
                 </div>
                 <div>
                   <h3>step2</h3>
-                  <h2>{state[5]}</h2>
+                  <h2>{state[6]}</h2>
+                  <h3>{state[7]}</h3>
                 </div>
               </div>
               <div className="box">
                 <div className="image">
-                  <img alt={state[7]} src={state[8]} />
+                  <img alt={state[9]} src={state[11]} />
                 </div>
                 <div>
                   <h3>step3</h3>
-                  <h2>{state[7]}</h2>
+                  <h2>{state[9]}</h2>
+                  <h3>{state[10]}</h3>
                 </div>
               </div>
             </div>
