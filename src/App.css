@@ -303,7 +303,7 @@
 .Difficult .block .main .box .picture img {
   width: 480px;
   height: 360px;
-  object-fit: fill;
+  object-fit: cover;
 }
 .Difficult .block .main .box .title {
   width: 480px;
