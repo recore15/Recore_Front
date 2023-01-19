@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import temporary from '../../../public/Img/temporary.png'
+import temporary from '../../Img/temporary.png'
 
 const Wrapper = styled.div`
     width: calc(100% - 32px);

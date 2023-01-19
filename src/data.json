@@ -4,6 +4,7 @@
         "deadline": "마감일",
         "title": "활동명",
         "writer": "작성자",
+        "place": "장소",
         "views": "조회수",
         "content": "봉사활동 소개글",
         "comments": [
@@ -34,6 +35,7 @@
         "deadline": "마감일",
         "title": "활동명",
         "writer": "작성자",
+        "place": "장소",
         "views": "조회수",
         "content": "봉사활동 소개글",
         "comments": [
@@ -64,6 +66,7 @@
         "deadline": "마감일",
         "title": "활동명",
         "writer": "작성자",
+        "place": "장소",
         "views": "조회수",
         "content": "봉사활동 소개글",
         "comments": [
@@ -94,6 +97,7 @@
         "deadline": "마감일",
         "title": "활동명",
         "writer": "작성자",
+        "place": "장소",
         "views": "조회수",
         "content": "봉사활동 소개글",
         "comments": [
@@ -124,6 +128,7 @@
         "deadline": "마감일",
         "title": "활동명",
         "writer": "작성자",
+        "place": "장소",
         "views": "조회수",
         "content": "봉사활동 소개글",
         "comments": [
@@ -154,6 +159,7 @@
         "deadline": "마감일",
         "title": "활동명",
         "writer": "작성자",
+        "place": "장소",
         "views": "조회수",
         "content": "제 블로그에 오신 것을 환영합니다.\n앞으로 유익한 글들을 자주 올리도록 하겠습니다!",
         "comments": [

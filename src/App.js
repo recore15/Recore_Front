@@ -29,7 +29,7 @@ function App() {
         <Route path="/recipe_De" element={<Detail_Re />} />
         <Route path="/write_Re" element={<Write_Re />} />
         <Route path="/volMain" element={<VolMain />} />
-        <Route path="/volPostView" element={<VolPostView />} />
+        <Route path="/volMain/:id" element={<VolPostView/>} />
         <Route path="/volPostWrite" element={<VolPostWrite />} />
         
       </Routes>

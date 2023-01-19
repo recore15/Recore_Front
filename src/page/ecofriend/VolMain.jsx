@@ -6,6 +6,7 @@ import { findByLabelText } from "@testing-library/react";
 import { useNavigate } from "react-router-dom";
 import Menu_Bar from "../../Menu_Bar";
 import Position from "../../Position";
+import VolPopList from "./VolPopList";
 
 const Wrapper = styled.div`
     width: calc(100% - 32px);
@@ -59,24 +60,25 @@ function VolMain(props) {
                 <Position title1={"에코프렌드"} title2={"봉사/캠페인"}/>
             </Wrapper2>
             <SubName>인기활동</SubName>
-        <Wrapper>
-            <Container>
-                <PostList
-                    posts={data}
-                    onClickItem={(item) => {
-                        navigate('/volMain/${item.id}');
-                    }}
-                />
-                <Wrapper3>
-                    <Button
-                        title="글쓰기"
-                        onClick={() => {
-                            navigate("/volPostWrite");
+            
+            <Wrapper>
+                <Container>
+                    <PostList
+                        posts={data}
+                        onClickItem={(item) => {
+                            navigate(`/volMain/${item.id}`);
                         }}
                     />
-                </Wrapper3>
-            </Container>
-        </Wrapper>
+                    <Wrapper3>
+                        <Button
+                            title="글쓰기"
+                            onClick={() => {
+                                navigate("/volPostWrite");
+                            }}
+                        />
+                    </Wrapper3>
+                </Container>
+            </Wrapper>
         </div>
     )
 }
