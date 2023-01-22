@@ -303,7 +303,7 @@
 .Difficult .block .main .box .picture img {
   width: 480px;
   height: 360px;
-  object-fit: fill;
+  object-fit: cover;
 }
 .Difficult .block .main .box .title {
   width: 480px;
@@ -376,6 +376,10 @@
 .Difficult_De .main .de_content .box .writing h5 {
   white-space: pre-line;
 }
+.Difficult_De .List_Btn {
+  margin-left: 1150px;
+}
+
 .Mode .title {
   flex-direction: column;
   display: flex;
@@ -530,7 +534,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
-  margin-left: 1120px;
+  margin-left: 1100px;
 }
 .List_Btn button {
   width: 80px;
@@ -623,7 +627,13 @@
   background-color: #adc178;
   border: none;
 }
+.Detail_Re h3 {
+  white-space: pre-line;
+}
 
+.Detail_Re .List_Btn {
+  margin-left: 980px;
+}
 .Write_Re .main {
   flex-direction: row;
   display: flex;
@@ -714,4 +724,17 @@
 .Quiz svg {
   width: 200px;
   height: 80px;
+}
+
+.Box {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+.Box img {
+  width: 280px;
+  height: 210px;
+}
+.Box h4 {
+  white-space: pre-line;
 }

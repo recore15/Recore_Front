@@ -32,12 +32,15 @@ const Mode = () => {
                       "수박",
                       "Img/waste/음식물쓰레기/수박.jpg",
                       "#과일#수박#파인애플#코코넛\n재활용: 가능\n분류: 음식물 쓰레기, 일반쓰레기",
+                      "분리한다",
                       "단단한 껍질과 안의 과육을 분리한다.",
-                      "Img/waste/음식물쓰레기/수박_분리한다.jpg",
+                      "Img/세부 페이지/음식물/수박_분리한다.jpg",
+                      "줄인다",
                       "과육의 크기가 큰 경우, 잘게 썰어서 크기를 줄인다.",
-                      "Img/waste/음식물쓰레기/수박_줄인다.jpg",
+                      "Img/세부 페이지/음식물/수박_줄인다.jpg",
+                      "배출한다",
                       "과육은 음식물쓰레기로, 단단한 껍질은 일반 쓰레기로 배출한다.",
-                      "Img/waste/음식물쓰레기/수박_배출한다.jpg",
+                      "Img/세부 페이지/음식물/수박_배출한다.jpg",
                     ],
                   });
                 }}
@@ -51,90 +54,25 @@ const Mode = () => {
                 onClick={() => {
                   navigate("/mode_De", {
                     state: [
-                      "고추장",
-                      "Img/waste/음식물쓰레기/고기.jpg",
-                      "#고기",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
+                      "조개",
+                      "Img/waste/음식물쓰레기/조개.jpg",
+                      "#어패류 #홍합 #가리비 #조개껍질\n재활용: 불가능\n분류: 일반 쓰레기",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
                     ],
                   });
                 }}
               >
-                <img alt="고기" src="Img/waste/음식물쓰레기/고기.jpg" />
+                <img alt="조개" src="Img/waste/음식물쓰레기/조개.jpg" />
               </button>
-              <h3>고기</h3>
-            </div>
-            <div className="box">
-              <button
-                onClick={() => {
-                  navigate("/mode_De", {
-                    state: [
-                      "고추장",
-                      "Img/waste/음식물쓰레기/고추장.jpg",
-                      "#고추장",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
-                    ],
-                  });
-                }}
-              >
-                <img alt="고추장" src="Img/waste/음식물쓰레기/고추장.jpg" />
-              </button>
-              <h3>고추장</h3>
-            </div>
-          </div>
-          <div className="column2">
-            <div className="box">
-              <button
-                onClick={() => {
-                  navigate("/mode_De", {
-                    state: [
-                      "과일",
-                      "Img/waste/음식물쓰레기/과일.jpg",
-                      "#과일",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
-                    ],
-                  });
-                }}
-              >
-                <img alt="과일" src="Img/waste/음식물쓰레기/과일.jpg" />
-              </button>
-              <h3>과일</h3>
-            </div>
-            <div className="box">
-              <button
-                onClick={() => {
-                  navigate("/mode_De", {
-                    state: [
-                      "김치",
-                      "Img/waste/음식물쓰레기/김치.jpg",
-                      "#김치",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
-                    ],
-                  });
-                }}
-              >
-                <img alt="김치" src="Img/waste/음식물쓰레기/김치.jpg" />
-              </button>
-              <h3>김치</h3>
+              <h3>조개</h3>
             </div>
             <div className="box">
               <button
@@ -143,13 +81,16 @@ const Mode = () => {
                     state: [
                       "달걀껍질",
                       "Img/waste/음식물쓰레기/달걀껍질.jpg",
-                      "#달걀껍질",
-                      "단계1",
-                      "단계1사진",
-                      "단계2",
-                      "단계2사진",
-                      "단계3",
-                      "단계3사진",
+                      "#달걀 #껍질\n재활용: 불가능\n분류: 일반 쓰레기",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
                     ],
                   });
                 }}
@@ -157,6 +98,84 @@ const Mode = () => {
                 <img alt="달걀껍질" src="Img/waste/음식물쓰레기/달걀껍질.jpg" />
               </button>
               <h3>달걀껍질</h3>
+            </div>
+          </div>
+          <div className="column2">
+            <div className="box">
+              <button
+                onClick={() => {
+                  navigate("/mode_De", {
+                    state: [
+                      "장류",
+                      "Img/waste/음식물쓰레기/고추장.jpg",
+                      "#고추장 #쌈장 #된장 #간장\n재활용: 불가능\n분류: 일반 쓰레기",
+                      "비운다",
+                      "액체인 장류는 배수구에 흘려 보내고, 들어 있던 통은 깨끗이 씻어 분류한다.",
+                      "Img/세부 페이지/음식물/장류_비운다.jpg",
+                      "묶는다",
+                      "고추장, 쌈장 등은 비닐에 담아 단단히 묶어 배출한다.",
+                      "Img/세부 페이지/음식물/장류_묶는다.jpg",
+                      "버린다",
+                      "염류를 많이 포함하고 있으므로, 음식물 쓰레기가 아닌 일반 쓰레기로 배출한다.",
+                      "Img/세부 페이지/음식물/장류_버린다.jpg",
+                    ],
+                  });
+                }}
+              >
+                <img alt="장류" src="Img/waste/음식물쓰레기/고추장.jpg" />
+              </button>
+              <h3>장류</h3>
+            </div>
+            <div className="box">
+              <button
+                onClick={() => {
+                  navigate("/mode_De", {
+                    state: [
+                      "뼈",
+                      "Img/waste/음식물쓰레기/생선뼈.jpg",
+                      "#생선 #치킨 #족발 #닭발\n재활용: 불가능\n분류: 일반 쓰레기",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                    ],
+                  });
+                }}
+              >
+                <img alt="뼈" src="Img/waste/음식물쓰레기/생선뼈.jpg" />
+              </button>
+              <h3>뼈</h3>
+            </div>
+
+            <div className="box">
+              <button
+                onClick={() => {
+                  navigate("/mode_De", {
+                    state: [
+                      "소금",
+                      "Img/waste/음식물쓰레기/소금.jpg",
+                      "#소금\n재활용: 불가능\n분류: 불연성 쓰레기",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                      "",
+                    ],
+                  });
+                }}
+              >
+                <img alt="소금" src="Img/waste/음식물쓰레기/소금.jpg" />
+              </button>
+              <h3>소금</h3>
             </div>
           </div>
         </div>

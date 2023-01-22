@@ -23,6 +23,7 @@ const Detail = () => {
             <div className="name">
               <h2>{state[0]}</h2>
               <h2>{state[2]}</h2>
+              <h4>{state[12]}</h4>
             </div>
           </div>
           <div className="how">
