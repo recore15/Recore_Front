@@ -16,33 +16,39 @@ const Wrapper = styled.div`
 `;
 
 const ListGuide = styled.div`
-    width: calc(100% - 32px);
+    width: 1020px;
+    height: 40px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    justify-content: space-around;
     border: none;
     background: #ADC178;
+    align-items: center;
 `;
 
 const ListDeadline = styled.p`
     font-size: 16px;
     color: #FFFFFF;
+    margin-left: 30px;
 `;
 
 const ListTitle = styled.p`
     font-size: 16px;
     color: #FFFFFF;
+    margin-left: 315px;
 `;
 
 const ListWriter = styled.p`
     font-size: 16px;
     color: #FFFFFF;
+    margin-left: 300px;
 `;
 
 const ListViews = styled.p`
     font-size: 16px;
     color: #FFFFFF;
+    margin-left: 95px;
+    margin-right: 30px;
 `;
 
 function PostList(props) {
@@ -53,8 +59,8 @@ function PostList(props) {
             <ListGuide>
                 <ListDeadline>마감일</ListDeadline>
                 <ListTitle>활동명</ListTitle>
-                <ListWriter>작성자</ListWriter>
-                <ListViews>조회수</ListViews>
+                <ListWriter>모집기관</ListWriter>
+                <ListViews>온/오프라인</ListViews>
             </ListGuide>
             {posts.map((post, index) => {
                 return (

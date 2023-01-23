@@ -5,7 +5,7 @@ import FuncShop from "./FuncShop";
 function FuncMain(props) {
     <div>
         <Menu_Bar />
-        <FuncShop></FuncShop>
+        
     </div>
 }
 

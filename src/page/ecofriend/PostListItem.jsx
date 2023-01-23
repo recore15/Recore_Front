@@ -2,11 +2,11 @@ import React from "react";
 import styled from "styled-components";
 
 const Wrapper = styled.div`
-    width: calc(100% - 32px);
+    width: 1020px;
+    height: 40px;
     display: flex;
     flex-direction: row;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-items: center;
     border-style: solid;
     border-width: 1px 0px;
     border-color: #D7D6D6;
@@ -20,18 +20,40 @@ const Wrapper = styled.div`
 const Deadline = styled.p`
     font-size: 16px;
     color: #ADC178;
+    width: 120px;
+    margin-left: 30px;
 `;
 
 const TitleText = styled.p`
+    display: inline;    
     font-size: 16px;
+    width: 460px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 50px;
+    align-items: center;
+    padding: auto 0px;
 `;
 
 const Writer = styled.p`
+    display: inline;
     font-size: 16px;
+    width: 140px;
+    height: 40px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    margin-left: 50px;
+    align-items: center;
+    padding: auto 0px;
 `;
 
 const Views = styled.p`
     font-size: 16px;
+    margin-left: 70px;
+    margin-right: 30px;
 `;
 
 function PostListItem(props) {
