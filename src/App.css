@@ -110,7 +110,8 @@
   border-radius: 8px 0px 0px 8px;
   width: 1101px;
   background-color: #d9d9d9;
-  font-size: 48px;
+  font-size: 32px;
+  padding-left: 10px;
   border: none;
 }
 .MainPage .search button {
@@ -247,6 +248,10 @@
 .Detail .content .name h2 {
   margin-top: 10px;
 }
+.Detail .content .name h3 {
+  margin-top: 30px;
+  font-size: 28px;
+}
 .Detail .main .how {
   margin-top: 50px;
 }
@@ -312,6 +317,16 @@
 }
 .Difficult .block .main .box .title h2 {
   margin-top: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+  color: #729e2f;
+  font-size: 23px;
+  margin-left: 15px;
+}
+.Difficult .block .main .box .title h4 {
+  font-size: 18px;
+  margin-top: 0px;
+  margin-left: 15px;
 }
 
 .Difficult_De .main {
@@ -373,8 +388,13 @@
   height: 390px;
   padding-left: 20px;
 }
+.Difficult_De .main .de_content .box .writing h3 {
+  margin-top: 0px;
+  font-size: 25px;
+}
 .Difficult_De .main .de_content .box .writing h5 {
   white-space: pre-line;
+  font-size: 19px;
 }
 .Difficult_De .List_Btn {
   margin-left: 1150px;
@@ -503,6 +523,10 @@
 }
 .Detail_Mo .content .name h2 {
   margin-top: 10px;
+}
+.Detail_Mo .content .name h3 {
+  margin-top: 30px;
+  font-size: 28px;
   white-space: pre-line;
 }
 .Detail_Mo .main .how {

@@ -21,7 +21,7 @@ const Detail_Mo = () => {
             <img alt={state[0]} src={state[1]} />
             <div className="name">
               <h2>{state[0]}</h2>
-              <h2>{state[2]}</h2>
+              <h3>{state[2]}</h3>
             </div>
           </div>
           <div className="how">
