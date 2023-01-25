@@ -5,8 +5,8 @@ function Home() {
 
   const initMap = useCallback(() => {
     new window.google.maps.Map(mapRef.current, {
-      center: { lat: -34.397, lng: 150.644 },
-      zoom: 8,
+      center: { lat: 37.552, lng: 126.988 },
+      zoom: 15,
     });
   }, [mapRef]);
 
@@ -17,7 +17,7 @@ function Home() {
   return (
     <div
       className="map"
-      style={{ width: "500px", height: "500px" }}
+      style={{ width: "1028px", height: "480px" }}
       ref={mapRef}
     ></div>
   );

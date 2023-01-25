@@ -38,6 +38,12 @@ const Container = styled.div`
     align-items: center;
 `;
 
+const MapWrapper = styled.div`
+    margin-top: 50px;
+    margin-left: 240px;
+    margin-bottom: 150px;
+`;
+
 function PlaceMain(props) {
     return (
         <div>
@@ -54,7 +60,9 @@ function PlaceMain(props) {
                     <Text>아이스팩 수거함</Text>
                 </Container>
             </Wrapper>
-            <MapAPI />
+            <MapWrapper>
+                <MapAPI />
+            </MapWrapper>
         </div>
     )
 }
