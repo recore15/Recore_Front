@@ -53,7 +53,7 @@ const Menu_Bar = () => {
                     <Link to="/volMain">봉사/캠페인</Link>
                   </li>
                   <li>
-                    <Link to="/funcMain">순기능</Link>
+                    <Link to="/productMain">순기능</Link>
                   </li>
                 </ul>
               </li>

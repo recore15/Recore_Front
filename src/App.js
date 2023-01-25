@@ -13,7 +13,7 @@ import Write_Re from "./page/waste/Write_Re";
 import VolMain from "./page/ecofriend/VolMain";
 import VolPostView from "./page/ecofriend/VolPostView";
 import VolPostWrite from "./page/ecofriend/VolPostWrite";
-import FuncMain from "./page/ecofriend/FuncMain";
+import ProductMain from "./page/ecofriend/ProductMain";
 import NewsMain from "./page/ecofriend/NewsMain";
 import PlaceMain from "./page/ecofriend/PlaceMain";
 
@@ -34,7 +34,7 @@ function App() {
         <Route path="/volMain" element={<VolMain />} />
         <Route path="/volMain/:id" element={<VolPostView/>} />
         <Route path="/volPostWrite" element={<VolPostWrite />} />
-        <Route path="/funcMain" element={<FuncMain />} />
+        <Route path="/productMain" element={<ProductMain />} />
         <Route path="/newsMain" element={<NewsMain />} />
         <Route path="/placeMain" element={<PlaceMain />} />
       </Routes>
