@@ -2,6 +2,8 @@ import styled from "styled-components";
 import Menu_Bar from "../../Menu_Bar";
 import petImg from "../../Img/ecoplace/pet.png"
 import iceImg from "../../Img/ecoplace/icepack.png"
+import GoogleApiWrapper from "./MapAPI";
+import MapAPI from "./MapAPI";
 
 const PageName = styled.h1`
     margin-top: 97px;
@@ -52,6 +54,7 @@ function PlaceMain(props) {
                     <Text>아이스팩 수거함</Text>
                 </Container>
             </Wrapper>
+            <MapAPI />
         </div>
     )
 }
