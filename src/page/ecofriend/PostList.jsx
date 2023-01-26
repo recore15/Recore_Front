@@ -42,7 +42,7 @@ const ListWriter = styled.p`
     font-size: 16px;
     color: #FFFFFF;
     margin-left: 300px;
-`;
+`; 
 
 const ListViews = styled.p`
     font-size: 16px;

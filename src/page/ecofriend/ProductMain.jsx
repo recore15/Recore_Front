@@ -15,6 +15,7 @@ import s3p2 from "../../Img/친환경샵/덕분애_실리콘빨대.png"
 import s3p3 from "../../Img/친환경샵/덕분애_천연대나무밴드.png"
 
 const Wrapper = styled.div`
+    margin-top: 172px;
     margin-bottom: 150px;
 `;
 

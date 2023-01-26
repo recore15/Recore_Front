@@ -40,16 +40,16 @@ const MainPage = () => {
             <hr />
             <ul>
               <li>
-                <a href="#">뉴스기사</a>
+                <a href="/newsMain">뉴스기사</a>
               </li>
               <li>
-                <a href="#">에코플레이스</a>
+                <a href="/placeMain">에코플레이스</a>
               </li>
               <li>
-                <a href="#">봉사/캠페인</a>
+                <a href="/volMain">봉사/캠페인</a>
               </li>
               <li>
-                <a href="#">순기능</a>
+                <a href="/productMain">순기능</a>
               </li>
             </ul>
           </li>
