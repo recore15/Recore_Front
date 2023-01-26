@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 const Menu_Bar = () => {
   return (
@@ -44,16 +44,16 @@ const Menu_Bar = () => {
                 <hr />
                 <ul>
                   <li>
-                    <a href="#">뉴스기사</a>
+                    <Link to="/newsMain">뉴스기사</Link>
                   </li>
                   <li>
-                    <a href="#">에코플레이스</a>
+                    <Link to="/placeMain">에코플레이스</Link>
                   </li>
                   <li>
-                    <a href="#">봉사/캠페인</a>
+                    <Link to="/volMain">봉사/캠페인</Link>
                   </li>
                   <li>
-                    <a href="#">순기능</a>
+                    <Link to="/productMain">순기능</Link>
                   </li>
                 </ul>
               </li>
