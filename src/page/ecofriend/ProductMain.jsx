@@ -20,7 +20,7 @@ const Wrapper = styled.div`
 
 const Container = styled.div`
     margin-left: 350px;
-    margin-top: 113px;
+    margin-top: 89px;
 `;
 
 const Shop = styled.div`
@@ -76,12 +76,15 @@ const PImg = styled.img`
 const PName = styled.p`
     font-size: 16px;
     font-weight: 550;
+    margin-top: 6px;
+    margin-bottom: 8px;
 `;
 
 const PPrice = styled.p`
     font-size: 16px;
     color: #ADC178;
     font-weight: 550;
+    margin: 0px 0px; 
 `;
 
 function ProductMain(props) {
@@ -92,7 +95,12 @@ function ProductMain(props) {
             <Wrapper>
                 <Container>
                     <Shop>
-                        <img src={rec} />
+                        <img 
+                            src={rec} 
+                            onClick={() => {
+                            window.open("https://www.jigushop.co.kr/", "_blank");
+                            }}
+                        />
                         <ShopImg src={s1}/>
                         <ShopText_1>함께 시작하는 제로웨이스트 라이프 하나뿐인 지구를 위한 소비 실천하기</ShopText_1>
                     </Shop>
@@ -102,7 +110,7 @@ function ProductMain(props) {
                             <PImg 
                                 src={s1p1}
                                 onClick={() => {
-                                    window.open("https://www.yna.co.kr/view/AKR20230112027900003?input=1195m", "_blank");
+                                    window.open("https://www.jigushop.co.kr/kitchen/?idx=436", "_blank");
                                 }}
                             />
                             <PName>실리콘 비누받침</PName>
@@ -112,7 +120,7 @@ function ProductMain(props) {
                             <PImg 
                                 src={s1p2}
                                 onClick={() => {
-                                    window.open("https://www.yna.co.kr/view/AKR20230112027900003?input=1195m", "_blank");
+                                    window.open("https://www.jigushop.co.kr/living/?idx=88", "_blank");
                                 }}
                             />
                             <PName>유기농 그물주머니</PName>
@@ -122,7 +130,7 @@ function ProductMain(props) {
                             <PImg 
                                 src={s1p3}
                                 onClick={() => {
-                                    window.open("https://www.yna.co.kr/view/AKR20230112027900003?input=1195m", "_blank");
+                                    window.open("https://www.jigushop.co.kr/cosmetic/?idx=176", "_blank");
                                 }}
                             />
                             <PName>오리진밤(멀티밤)</PName>
@@ -133,7 +141,12 @@ function ProductMain(props) {
 
                 <Container>
                     <Shop>
-                        <img src={rec} />
+                        <img 
+                            src={rec} 
+                            onClick={() => {
+                            window.open("https://www.oasis.co.kr/main", "_blank");
+                            }}
+                        />
                         <ShopImg src={s2}/>
                         <ShopText_2>친환경 유기농 신선식품으로 건강하게 오늘밤 주문하면 내일 새벽 도착!</ShopText_2>
                     </Shop>
@@ -143,7 +156,7 @@ function ProductMain(props) {
                             <PImg 
                                 src={s2p1}
                                 onClick={() => {
-                                    window.open("https://www.yna.co.kr/view/AKR20230112027900003?input=1195m", "_blank");
+                                    window.open("https://www.oasis.co.kr/product/detail/9264-1006694?categoryId=11", "_blank");
                                 }}
                             />
                             <PName>무농약 대추방울토마토</PName>
@@ -153,7 +166,7 @@ function ProductMain(props) {
                             <PImg 
                                 src={s2p2}
                                 onClick={() => {
-                                    window.open("https://www.yna.co.kr/view/AKR20230112027900003?input=1195m", "_blank");
+                                    window.open("https://www.oasis.co.kr/product/detail/64012-1071333?categoryId=11", "_blank");
                                 }}
                             />
                             <PName>친환경 미니밤호박</PName>
@@ -163,7 +176,7 @@ function ProductMain(props) {
                             <PImg 
                                 src={s2p3}
                                 onClick={() => {
-                                    window.open("https://www.yna.co.kr/view/AKR20230112027900003?input=1195m", "_blank");
+                                    window.open("https://www.oasis.co.kr/product/detail/64185-1071559?categoryId=11", "_blank");
                                 }}
                             />
                             <PName>유기농 시금치</PName>
@@ -174,7 +187,12 @@ function ProductMain(props) {
 
                 <Container>
                     <Shop>
-                        <img src={rec} />
+                        <img 
+                            src={rec} 
+                            onClick={() => {
+                            window.open("https://www.thanksto.co.kr/main/index.php", "_blank");
+                            }}
+                        />
                         <ShopImg src={s3}/>
                         <ShopText_3>생명과 환경을 회복시키는 제로웨이스트 플랫폼</ShopText_3>
                     </Shop>
@@ -184,7 +202,7 @@ function ProductMain(props) {
                             <PImg 
                                 src={s3p1}
                                 onClick={() => {
-                                    window.open("https://www.yna.co.kr/view/AKR20230112027900003?input=1195m", "_blank");
+                                    window.open("https://www.thanksto.co.kr/goods/goods_view.php?goodsNo=1000000039", "_blank");
                                 }}
                             />
                             <PName>스테인리스 트리오 밀폐용기</PName>
@@ -194,7 +212,7 @@ function ProductMain(props) {
                             <PImg 
                                 src={s3p2}
                                 onClick={() => {
-                                    window.open("https://www.yna.co.kr/view/AKR20230112027900003?input=1195m", "_blank");
+                                    window.open("https://www.thanksto.co.kr/goods/goods_view.php?goodsNo=1000000022", "_blank");
                                 }}
                             />
                             <PName>실리콘 빨대</PName>
@@ -204,7 +222,7 @@ function ProductMain(props) {
                             <PImg 
                                 src={s3p3} 
                                 onClick={() => {
-                                    window.open("https://www.yna.co.kr/view/AKR20230112027900003?input=1195m", "_blank");
+                                    window.open("https://www.thanksto.co.kr/goods/goods_view.php?goodsNo=1000000015", "_blank");
                                 }}
                             />
                             <PName>천연 대나무밴드</PName>
