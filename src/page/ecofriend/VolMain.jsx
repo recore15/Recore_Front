@@ -124,7 +124,7 @@ function VolMain(props) {
                     <PostList
                         posts={data}
                         onClickItem={(item) => {
-                            navigate(`/volMain/${item.id}`);
+                            navigate("/volMain/volPost1");
                         }}
                     />
                     <Wrapper3>
