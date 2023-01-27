@@ -94,7 +94,7 @@ function VolMain(props) {
                     <PopImg
                         src={pop1}
                         onClick={() => {
-                            navigate("")
+                            navigate("/volMain/volPost1")
                         }}
                     />
                     <PopTitle>[제로웨이스트 강북]2023년 1차 자원봉사자 모집(월1회 참여가능)</PopTitle>
@@ -124,7 +124,7 @@ function VolMain(props) {
                     <PostList
                         posts={data}
                         onClickItem={(item) => {
-                            navigate(`/volMain/${item.id}`);
+                            navigate("/volMain/volPost1");
                         }}
                     />
                     <Wrapper3>

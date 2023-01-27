@@ -16,6 +16,8 @@ import VolPostWrite from "./page/ecofriend/VolPostWrite";
 import ProductMain from "./page/ecofriend/ProductMain";
 import NewsMain from "./page/ecofriend/NewsMain";
 import PlaceMain from "./page/ecofriend/PlaceMain";
+import VolPost1 from "./page/ecofriend/VolPostN/VolPost1";
+import VolPost2 from "./page/ecofriend/VolPostN/VolPost2";
 
 function App() {
   return (
@@ -32,7 +34,9 @@ function App() {
         <Route path="/recipe_De" element={<Detail_Re />} />
         <Route path="/write_Re" element={<Write_Re />} />
         <Route path="/volMain" element={<VolMain />} />
-        <Route path="/volMain/:id" element={<VolPostView/>} />
+        <Route path="/volMain/volPostView/:id" element={<VolPostView/>} />
+        <Route path="/volMain/volPost1" element={<VolPost1/>} />
+        <Route path="/volMain/volPost2" element={<VolPost2/>} />
         <Route path="/volPostWrite" element={<VolPostWrite />} />
         <Route path="/productMain" element={<ProductMain />} />
         <Route path="/newsMain" element={<NewsMain />} />
